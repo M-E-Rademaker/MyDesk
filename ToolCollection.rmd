@@ -72,8 +72,7 @@ most notably [StackOverflow][Stackoverflow] and [GitHub][GitHub], although
 each of them uses a different [Markdown][Markdown] dialect (extension). 
 The number of different dialects that have evolved since the original 
 [Markdown][Markdown] language was first introduced in 2004 are a bit confusing, 
-however, they are largely compatible amongst each other and thus of minor 
-practial importance.  
+however, they are largely compatible amongst each other.  
 
 Text written in [Markdown][Markdown] is basically regular text with some 
 additional "comments" like "#" that tell the processing engine what it 
@@ -204,7 +203,7 @@ vector graphics of any kind. As [TikZ][Tikz] is to be used in (La)TeX, fonts
 and appearance beautifully go along with that of LaTeX. Once installed, 
 learning [TikZ][Tikz] is comparably simple but can be quite time consuming 
 when a certain flexibility is needed. There is a 
-[great documentation][tikz-documentation] for all of [TikZ][Tikz] features but 
+[great documentation][Tikz-documentation] for all of [TikZ][Tikz] features but 
 being more than 1200 pages strong, this documentation is overwhelming at first 
 but very helpful once you know your way around its content.
 
@@ -385,6 +384,7 @@ in [LaTeX][Latex] bibliography file (.bib)  or more conveniently in JabRef. In m
 [ggvis]: http://ggvis.rstudio.com/
 [Tikz]: https://www.google.de/search?q=tikz&ie=utf-8&oe=utf-8&gws_rd=cr&ei=KLZlVqaKNcKWPIKYq5gP#
 [TikzEd]: http://www.tikzedt.org/
+[Tikz-documentation]: http://pgf.sourceforge.net/pgf_CVS.pdf
 [Shiny]: http://shiny.rstudio.com/
 [Shiny-Tutorial]: http://shiny.rstudio.com/tutorial/
 [Shinycheatsheet]: http://www.rstudio.com/wp-content/uploads/2016/01/shiny-cheatsheet.pdf
