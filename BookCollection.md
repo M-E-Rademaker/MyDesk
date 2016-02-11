@@ -1,0 +1,81 @@
+# Books
+
+This is a collection of books I've found useful when learning about R, data visualization and econometrics. I've roughly grouped them by their main subject, however, the distinction is not meant to be that strict. This list will be extended whenever I find something new that is worth mentioning.
+
+***
+
+## Books related to visualization
+
+1. Title: **The Elements of Graphing Data**   
+   Author: William S. Cleveland  
+   Year: 1994  
+   Edition: 2  
+
+1. Title **The Visual Display of Quantitative Information**  
+   Author: Edward Tufte    
+   Year: 2001  
+   Edition: 2  
+
+1. Title: **Visual Explanation: Images and Quantities,
+   Evidence and Narrative**  
+   Author: Edward Tufte  
+   Year: 1997  
+   Edition: 1
+
+1. Title: **Show Me the Numbers - Designing Tables and Graphs to Enlighten**  
+   Author: Stephen Few  
+   Year: 2012  
+   Edition: 2
+
+***
+
+## Books related to R
+
+1. Title: **The Art of R Programming: A Tour of Statistical Software Design**  
+   Author: Norman Matloff  
+   Year: 2011  
+   Edition: 1
+
+1. Title: **Advanced R**  
+   Author: Hadley Wickham  
+   Year: 2014  
+   Edition: 1
+
+1. Title: **ggplot2**  
+   Author: Hadley Wickham  
+   Year: (forthcoming) mid 2016  
+   Edition: 2
+
+1. Title: **R Cookbook**  
+   Author: Paul Teetor   
+   Year : 2011  
+   Edition: 1
+
+1. Title: **R Graphics Cookbook**  
+   Author: Winston Chang  
+   Year : 2013  
+   Edition: 1
+
+1. Title: **Dynamic Documents with R and Knitr**  
+   Author: Yihui Xie  
+   Year : 2013
+   Edition: 1
+
+***
+
+## Books related to econometrics
+
+1. Title: **Econometric Analysis**  
+   Author: Whilliam Greene  
+   Year: 2011  
+   Edition: 7
+
+1. Title: **Mostly Harmless Econometrics**   
+   Author: Joshua Angrist and Jörn-Steffen Pischke  
+   Year: 2008  
+   Edition: 1
+
+1. Title: **Mastering Metrics**  
+   Author: Joshua Angrist and Jörn-Steffen Pischke    
+   Year: 2015    
+   Edition: 1

@@ -61,194 +61,56 @@ img {
 
 
 
-<div id="software-programs-and-tools-for-the-scientific-workflow" class="section level1">
-<h1>Software, Programs and Tools for the Scientific Workflow</h1>
-<p>This is a collection of useful software, programs and tools (SPT’s) that in some way or another help ease the scientific workflow. While the term “scientific workflow” may mean different things to different disciplines, I explicitly assume a data-driven workflow which implies that at some point within the process of answering a scientific question, data comes into play. While studying the scientific workflow as such is interesting - especially from a developers perspective - it is sufficient to think of it as a circle of three mutually dependent parts:</p>
-<ul>
-<li>Get, manage, and clean data</li>
-<li>Analysis data - Visualize, model, transform</li>
-<li>Communicate results - Write, present, share</li>
-</ul>
-<p>These SPT’s are roughly grouped by their main purpose, although this is by no means a sharp distinction as most SPT’s are useful for different tasks within the circle. Help, documentation, tutorials and examples for each of the SPT’s mentioned below may easily be found on <a href="https://www.google.de">google</a>. I will, however, mention recommended reading if I find something particularly useful.</p>
-<hr />
-<div id="spts-for-scientific-writing" class="section level2">
-<h2>SPT’s for scientific writing</h2>
-<p>Scientific writing poses challenges that regular word processors such as <a href="https://products.office.com/de-de/word">Microsoft Word</a> or <a href="https://www.openoffice.org/de/">OpenOffice</a> are not designed for, most notably</p>
-<ul>
-<li>extensive use of mathematical characters and symbols</li>
-<li>ability to control the layout in detail</li>
-<li>state of the art style requirements</li>
-<li>convertibility between different formats (e.g. .pdf and .html)</li>
-<li>reproducibility and cross-platform independence</li>
-<li>seamless integration with other SPT’s within the scientific workflow</li>
-</ul>
-<div id="latexlatex" class="section level3">
-<h3><a href="https://www.latex-project.org/">LaTeX</a></h3>
-<p><a href="https://www.latex-project.org/">LaTeX</a> is a free and open-source high-quality typesetting system. It may be used for pretty much anything related to typesetting whether it is a short technical paper or presentation trenched in mathematical symbols, graphs and tables or a lengthy book with many chapters and detailed style guidelines. Since <a href="https://www.latex-project.org/">LaTeX</a> includes features that are explicitly designed for the production of technical and scientific writing (e.g. mathematical notation and detailed control of the bibliography), it excels at that and has hence become the de facto standard for the communication and publication of scientific documents. While learning <a href="https://www.latex-project.org/">LaTeX</a> requires more effort than learning <a href="https://products.office.com/de-de/word">Microsoft Word</a> (at least initally) it has many advantages that make the initial effort worthwhile, in particular for those that regularly use mathematical notation.</p>
-<p>Installation:</p>
-<ul>
-<li>For Windows: <a href="http://miktex.org/">MikTeX</a> or <a href="http://www.tug.org/protext/">proTeXt</a></li>
-<li>For Mac: <a href="http://www.tug.org/mactex/">MacTeX</a></li>
-<li>Unix/Linux: <a href="http://www.tug.org/texlive/">TeX Live</a></li>
-</ul>
-<p>Recommended Editors: <a href="http://www.xm1math.net/texmaker/">TeXMaker</a>, <a href="http://texstudio.sourceforge.net/">TeXstudio</a></p>
+<div id="books-related-to-visualization" class="section level2">
+<h2>Books related to visualization</h2>
+<ol style="list-style-type: decimal">
+<li><p>Title: <strong>The Elements of Graphing Data</strong><br />
+ Autor: William S. Cleveland<br />
+ Year : 1994<br />
+ Edition: 2</p></li>
+<li><p>Titel <strong>The Visual Display of Quantitative Information</strong><br />
+ Autor: Edward Tufte<br />
+ Year : 2001<br />
+ Edition: 2</p></li>
+<li><p>Titel <strong>Visual Explanation: Images and Quantities, Evidence and Narrative</strong><br />
+ Autor: Edward Tufte<br />
+ Year : 1997<br />
+ Edition: 1</p></li>
+<li><p>Title: <strong>Show Me the Numbers - Designing Tables and Graphs to Enlighten</strong><br />
+ Autor: Stephen Few<br />
+ Year : 2012<br />
+ Edition: 2</p></li>
+</ol>
 </div>
-<div id="markdownmarkdown" class="section level3">
-<h3><a href="https://guides.github.com/features/mastering-markdown/">Markdown</a></h3>
-<p><a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> is a very simple markup language with plain text formatting syntax that was designed to be as easy-to-read and easy-to-write for humans as possible. Originally, documents written in standard <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> were only intended to be converted to HTML, however, in particular with the introduction of <a href="http://pandoc.org/index.html">Pandoc</a>, the number of formats increased significantly now supporting well known formats such as .pdf and .docx (<a href="https://products.office.com/de-de/word">Microsoft Word</a>). <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> is standard in most scientific forums and platforms, most notably <a href="http://stackoverflow.com/">StackOverflow</a> and <a href="https://github.com/">GitHub</a>, although each of them uses a different <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> dialect (extension). The number of different dialects that have evolved since the original <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> language was first introduced in 2004 are a bit confusing, however, they are largely compatible amongst each other.</p>
-<p>Text written in <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> is basically regular text with some additional “comments” like “#” that tell the processing engine what it should do with the text (in this case: “#” tells the engine to convert the line following the “#” to the appropriate html code indicating a first-level header). Allowing only a small set of such “comments”, it is easy to learn, yet powerful enough to cover most of the formatting tasks you usually want to do while leaving the rest to more advanced programs such as <a href="https://www.latex-project.org/">LaTeX</a>. In this respect, although fundamentally different, it may be seen as at “LaTeX-light”.</p>
-<p>The major advantages of <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a>, besides simplicity, are state of the art styling, convertibility, and seamless integration with other SPT’s such as <a href="https://www.r-project.org/">R</a>, <a href="https://github.com/">GitHub</a>, <a href="http://jupyter.org/">Jupyter</a> or <a href="http://shiny.rstudio.com/">Shiny</a>.</p>
-<p>Installation: none needed<br />
-Recommended Editor: <a href="https://atom.io/">Atom</a>, <a href="https://www.rstudio.com/">RStudio</a></p>
-<hr />
+<div id="books-related-to-r" class="section level2">
+<h2>Books related to R</h2>
+<ol style="list-style-type: decimal">
+<li><p>Title: <strong>The Art of R Programming: A Tour of Statistical Software Design</strong><br />
+ Autor: Norman Matloff<br />
+ Year : 2011<br />
+ Edition: 1</p></li>
+<li><p>Title: <strong>Advanced R</strong><br />
+ Autor: Hadley Wickham<br />
+ Year : 2014<br />
+ Edition: 1</p></li>
+<li><p>Title: <strong>R Cookbook</strong><br />
+ Autor: Paul Teetor<br />
+ Year : 2011<br />
+ Edition: 1</p></li>
+<li><p>Title: <strong>R Graphics Cookbook</strong><br />
+ Autor: Winston Chang<br />
+ Year : 2013<br />
+ Edition: 1</p></li>
+<li><p>Title: <strong>Dynamic Documents with R and Knitr</strong><br />
+ Autor: Yihui Xie<br />
+ Year : 2013 Edition: 1</p></li>
+</ol>
 </div>
+<div id="books-related-to-econometrics" class="section level2">
+<h2>Books related to econometrics</h2>
 </div>
-<div id="spts-for-statistical-and-data-analysis" class="section level2">
-<h2>SPT’s for statistical and data analysis</h2>
-<p>Statistical analysis is at the heart of the answer to most scientific questions. This is especially true for questions related to economics and/or businesses management. A set of SPT’s that help built, explore, evaluate, and interpret models of any complexity is therefore indispensable. While standard spread sheet programs such as <a href="https://products.office.com/de-de/excel">Microsoft Excel</a> do have its benefits, it is important to realize that they are not designed for more complex statistical tasks. Additionally, they usually only poorly integrate with other SPT’s, which is a major obstacle in the scientific workflow. See e.g. <a href="http://ekonometrics.blogspot.de/2015/12/not-so-sweet-sixteen.html">this</a> post.</p>
-<div id="rr" class="section level3">
-<h3><a href="https://www.r-project.org/">R</a></h3>
-<p><a href="https://www.r-project.org/">R</a> is an open-source software environment for statistical computing and graphics. It is a primarily a command language, although a graphical user interface (GUI) called <a href="http://www.rcommander.com/">RCommander</a> may be used. Compared to software such as <a href="http://www.eviews.com/home.html">EViews</a>, <a href="http://stackoverflow.com/">Stata</a>, <a href="https://de.wikipedia.org/wiki/SPSS">SPSS</a> or <a href="http://gretl.sourceforge.net/">Gretl</a> it has a relatively steep learning curve - although the initial hurdle has been considerably lowered over the last years, thanks to tutorials, introductory videos, well written books and tons of detailed and easy-to-read ocumentation. The learning curve is usually an obstacle for those new to <a href="https://www.r-project.org/">R</a>, however, as mentioned above and as described <a href="https://thetarzan.wordpress.com/2011/07/15/why-use-r-a-grad-students-2-cents/">here</a> and <a href="http://www.inside-r.org/why-use-r">here</a>, there are numerous reasons why <a href="https://www.r-project.org/">R</a> should nevertheless be your pick as statistical software, most notably:</p>
-<ul>
-<li>It is free</li>
-<li><a href="https://www.r-project.org/">R</a> forces you to think about what you want to do</li>
-<li>By seamlessly integrating with other SPT’s <a href="https://www.r-project.org/">R</a> open the door to a world of other SPT’S</li>
-<li>Conceptually intuitive, uniform data cleaning and transformation capabilities (thanks to packages such as <code>dplyr</code>, <code>tidyr</code> and <code>magrittr</code>), unparalleled visualization possibilities (thanks to packages such <code>ggplot2</code> and (in the future) <code>ggvis</code>), and almost every model function you can think of (thanks to over 6000 packages on CRAN alone).</li>
-<li>A vibrant and helpful community.</li>
-</ul>
-<p>Installation: <a href="https://cran.r-project.org/">CRAN</a><br />
-Recommended Editor: <a href="https://www.rstudio.com/">RStudio</a><br />
-Recommended Reading:</p>
-<ul>
-<li>Norman Matloff: <em>The Art of R Programming</em></li>
-<li>Paul Teetor: <em>R Cookbook</em></li>
-<li><p>Hadely Wickham: <em>Advanced R</em></p></li>
-<li><a href="http://www.ats.ucla.edu/stat/r/%3E">Institute for digital research and learning UCLA</a></li>
-<li><a href="https://www.rstudio.com/resources/cheatsheets/">R-Studio cheat cheets</a></li>
-<li><p><a href="http://stat545-ubc.github.io/index.html">Stat545 homepage</a></p></li>
-</ul>
-</div>
-<div id="statastata" class="section level3">
-<h3><a href="http://stackoverflow.com/">Stata</a></h3>
-<p><a href="http://stackoverflow.com/">Stata</a> is a powerful commercial software for data analysis and graphics. It has a relatively simple syntax mitigating the initial pain associated with learning a new language. <a href="http://stackoverflow.com/">Stata</a> has outstanding documentation for its functions as well as for the mathematical concepts underlying these functions. There are good reasons to learn <a href="http://stackoverflow.com/">Stata</a> and in fact, I think mastering both <a href="http://stackoverflow.com/">Stata</a> and <a href="https://www.r-project.org/">R</a> is ideal as it allows to combine the best of both.</p>
-<hr />
-</div>
-</div>
-<div id="spts-for-visualization" class="section level2">
-<h2>SPT’s for visualization</h2>
-<p>Visualization is an integral part of the data analysis. Proper visualization does not only help to summarize what you already know but <em>it forces us to notice what we never expected to see</em> (John Tukey).</p>
-<p>While there are many aspects to what makes visualization good (see e.g. <a href="http://www.amazon.de/Show-Me-Numbers-Designing-Enlighten/dp/0970601972">this</a> brilliant book by Stephen Few, or literately anything written by Edward Tufte), this section only describes helpful tools to be used in creating objectively good and meaningful visualizations.</p>
-<div id="ggplot2ggplot2-git" class="section level3">
-<h3><a href="https://github.com/hadley/ggplot2">ggplot2</a></h3>
-<p><a href="https://github.com/hadley/ggplot2">ggplot2</a> is <strong>the</strong> <a href="https://www.r-project.org/">R</a> package for producing statistical and/or data graphics, written by Hadely Wickham, one of the most productive - if not the most productive - member of the <a href="https://www.r-project.org/">R</a> family. It has become the de facto standard for displaying graphics made with <a href="https://www.r-project.org/">R</a>. Unlike most other graphics packages in <a href="https://www.r-project.org/">R</a> - or any other statistical program for that matter - it does not only provide a set of commands useful to produce beautiful, hassle-free graphics but aims higher by building on a deep underlying <strong>grammar of graphics</strong>. This is what makes <a href="https://github.com/hadley/ggplot2">ggplot2</a> so powerful! Learning the grammar will not only help new users to master the many commands used in producing a high class graphic, but will also force you -or, to put it more mildly, help you- to think about what a specific graphic should contain. The importance of <a href="https://github.com/hadley/ggplot2">ggplot2</a> cannot be overstated and should be a must-use for any serious visualization attempt .</p>
-<p>Installation: <code>install.packages(&quot;ggplot2&quot;)</code> in your R console<br />
-Recommended Reading:</p>
-<ul>
-<li>Hadley Wickham: <a href="https://github.com/hadley/ggplot2-book"><em>ggplot2: Elegant Graphics for Data Analysis</em></a> (To be published in July 2016)</li>
-<li>Winston Chang: <a href="http://www.amazon.de/R-Graphics-Cookbook-Winston-Chang/dp/1449316956/ref=pd_bxgy_14_img_3?ie=UTF8&amp;refRID=1X86HJ6XDM6N9HDH32ZR"><em>R Graphics Cookbook</em></a></li>
-<li><a href="https://www.rstudio.com/resources/cheatsheets/">Data Visualization Cheat Sheet</a></li>
-<li><a href="http://vissoc.co/" class="uri">http://vissoc.co/</a>: Accompaning website for Kieran Healy’s course on data visualization</li>
-</ul>
-</div>
-<div id="ggvisggvis" class="section level3">
-<h3><a href="http://ggvis.rstudio.com/">ggvis</a></h3>
-<p><a href="http://ggvis.rstudio.com/">ggvis</a> is a still-in-active-developement <a href="https://www.r-project.org/">R</a> package for data visualization. Like <a href="https://github.com/hadley/ggplot2">ggplot2</a>, it centers around the grammar of graphics, but adds interactivity by incorporating <a href="http://shiny.rstudio.com/">shiny</a>‘s’ reactive programming model. The package is still in its very early stages and is likely to undergo significant changes in the future, however, it is definitely worth keeping an eye on it’s development as it is probably going to set the standard of interactive visualization in a couple of years.</p>
-<p>Installation: <code>install.packages(&quot;ggvis&quot;)</code> in your R console</p>
-</div>
-<div id="tikztikz" class="section level3">
-<h3><a href="https://www.google.de/search?q=tikz&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=KLZlVqaKNcKWPIKYq5gP#">TikZ</a></h3>
-<p><a href="https://www.google.de/search?q=tikz&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=KLZlVqaKNcKWPIKYq5gP#">TikZ</a> is a Tex package that offers a huge amount of commands to produce vector graphics of any kind. As <a href="https://www.google.de/search?q=tikz&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=KLZlVqaKNcKWPIKYq5gP#">TikZ</a> is to be used in (La)TeX, fonts and appearance beautifully go along with that of LaTeX. Once installed, learning <a href="https://www.google.de/search?q=tikz&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=KLZlVqaKNcKWPIKYq5gP#">TikZ</a> is comparably simple but can be quite time consuming when a certain flexibility is needed. There is a <a href="http://pgf.sourceforge.net/pgf_CVS.pdf">great documentation</a> for all of <a href="https://www.google.de/search?q=tikz&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=KLZlVqaKNcKWPIKYq5gP#">TikZ</a> features but being more than 1200 pages strong, this documentation is overwhelming at first but very helpful once you know your way around its content.</p>
-<p>Installation: <code>usepackage(tikz)</code> in your LaTeX preamble.<br />
-Recommended Editor: <a href="http://www.tikzedt.org/">TikzEd</a>, <a href="http://www.xm1math.net/texmaker/">TeXMaker</a></p>
-</div>
-<div id="shinyshiny" class="section level3">
-<h3><a href="http://shiny.rstudio.com/">Shiny</a></h3>
-<p><a href="http://shiny.rstudio.com/">Shiny</a> is an <a href="https://www.r-project.org/">R</a> package created by <a href="https://www.rstudio.com/">RStudio</a> that provides a framework to build beautiful, interactive web application without extended knowledge of HTML, CSS or JavaScript. The commands necessary to write basic and intermediate shiny application are surprisingly easy to learn, however, a working knowledge of JavaScript and HTML is probably very handy for more complex projects. As all the statistical work is done in <a href="https://www.r-project.org/">R</a>, a proper knowledge of how to do things in <a href="https://www.r-project.org/">R</a> is required. While <a href="http://shiny.rstudio.com/">Shiny</a> is by no means confined to visualization, it is particularly helpful when combined with <a href="https://github.com/hadley/ggplot2">ggplot2</a> to produce beautiful graphics that can be changed on the fly.</p>
-<p>Installation: <code>install.packages(&quot;shiny&quot;)</code> in your R console<br />
-Recommended Editor: <a href="https://www.rstudio.com/">RStudio</a><br />
-Recommended Tutorial:</p>
-<ul>
-<li>The best way to learn Shiny is to use the <a href="http://shiny.rstudio.com/tutorial/">tutorial on the Shiny webpage</a></li>
-<li>Nice tutorial by Dean Attali: <a href="http://deanattali.com/blog/building-shiny-apps-tutorial/" class="uri">http://deanattali.com/blog/building-shiny-apps-tutorial/</a></li>
-</ul>
-<p>Recommended Reading:</p>
-<ul>
-<li><a href="http://www.rstudio.com/wp-content/uploads/2016/01/shiny-cheatsheet.pdf">Interactive web apps cheat sheet</a></li>
-<li><a href="http://www.showmeshiny.com/">ShowMeShiny</a>: Examples on what can be done with shiny</li>
-</ul>
-<hr />
-</div>
-</div>
-<div id="spts-for-presentations" class="section level2">
-<h2>SPT’s for presentations</h2>
-<div id="latex-beamer" class="section level3">
-<h3>Latex-beamer</h3>
-<p>The beamer class is used to create presentation slides with <a href="https://www.latex-project.org/">LaTeX</a>. As it is a <a href="https://www.latex-project.org/">LaTeX</a> class, it is perfectly suited for high-quality presentations that make extensive use of mathematical notations and symbols and require fine control over the appearance.</p>
-<p>Installation: A working <a href="https://www.latex-project.org/">LaTeX</a> installation such as <a href="http://miktex.org/">MikTeX</a>.<br />
-Recommended Reading: <a href="http://sunsite.informatik.rwth-aachen.de/ftp/pub/mirror/ctan/macros/latex/contrib/beamer/doc/beameruserguide.pdf">Beamer User Guide</a></p>
-<hr />
-</div>
-</div>
-<div id="spts-that-bring-em-all-together" class="section level2">
-<h2>SPT’s that bring ’em all together</h2>
-<div id="pandocpandoc" class="section level3">
-<h3><a href="http://pandoc.org/index.html">Pandoc</a></h3>
-<p>Pandoc is a universal markup language document converter written by John MacFarlane. You can pass any documents written in a markup language like LaTeX, Markdown, HTML, Microsoft Word (yes, behind the scenes Word is a markup language too!) to Pandoc and convert these from one format to another including different slide show formats, HTML code and pdf. Pandoc is not that easy to use (requires a command line) but as it is nicely integrate into <a href="https://www.rstudio.com/">RStudio</a> via the RMarkdown package. Hence, there is usually no need to use it directly, although its good to know that it exists in case you need it.</p>
-</div>
-<div id="knitrknitr" class="section level3">
-<h3><a href="http://yihui.name/knitr/">Knitr</a></h3>
-<p>First of all, <a href="http://yihui.name/knitr/">Knitr</a> is an <a href="https://www.r-project.org/">R</a> package. More importantly, however, it is a general-purpose literate programming engine. Literate programming is a term coined by Donald Knuth the creator of the TeX typesetting system. It basically centers around the idea that programming does not only consist of writing many lines of code but, equally important, it involves writing a narrative that explains what the code actually does and how the program or its functions are supposed to be used. Traditionally, this was done by either writing comments directly in the source file, or by writing a separate documentation. The former has the obvious drawback of being limited to almost no formatting possibilities and requires the readers to be able to open and understand the source file. While the latter approach is better it still has major shortcomings, mainly:</p>
-<ul>
-<li>it involves lots of human effort (copy-and-pasting)</li>
-<li>it is error-prone due to copy-and-pasting</li>
-<li>inherently static: if results depend on previous results, the whole chain has to be manually rewritten if any of the results within the chain are changed.</li>
-<li>it is likely to produce layout conflicts and inconsistent styling which</li>
-</ul>
-<p><a href="http://yihui.name/knitr/">Knitr</a> enables the use of both program code and sophisticated comments within one single document. Although <a href="http://yihui.name/knitr/">Knitr</a> is an <a href="https://www.r-project.org/">R</a> package it does not only support R but the most often used document formats such as LaTeX, HTML, Markdown and a broad variety of other programming languages such as Pyton, Julia or even (after some tweaking) Stata. <a href="http://yihui.name/knitr/">Knitr</a> is tightly integrated into <a href="https://www.rstudio.com/">RStudio</a> but does not depend on it.</p>
-<p>Recommended Reading:</p>
-<ul>
-<li>Yihui Xie - Dynamic Documents with R and knitr</li>
-</ul>
-</div>
-<div id="rmarkdown-v2rmarkdown" class="section level3">
-<h3><a href="http://rmarkdown.rstudio.com/">RMarkdown v2</a></h3>
-<p>RMarkdown is an <a href="https://www.r-project.org/">R</a> package that is usually refered to R Markdown v2 to distinguish it from an earlier version. It basically brings Markdown, <a href="http://yihui.name/knitr/">Knitr</a> and <a href="http://pandoc.org/index.html">Pandoc</a> together. It enables easy creation of dynamic documents (via <a href="http://yihui.name/knitr/">Knitr</a>) in different formats (via <a href="http://pandoc.org/index.html">Pandoc</a>) including Pandoc’s version of the Markdown language. Similar to <a href="http://yihui.name/knitr/">Knitr</a>, it is tightly integrated into the <a href="https://www.rstudio.com/">RStudio</a> IDE making it extremly easy to use (literally one click is sometimes enough). Recommended Reading:</p>
-<ul>
-<li><a href="http://www.introductoryr.co.uk/Reproducibility/Markdown_guide.html">This</a> is a very good, detailed but also long intro to <a href="http://rmarkdown.rstudio.com/">RMarkdown</a> and reproducible research in general.</li>
-<li><a href="https://www.rstudio.com/resources/cheatsheets/">R Markdown cheat sheets</a></li>
-</ul>
-</div>
-<div id="jupyterjupyter" class="section level3">
-<h3><a href="http://jupyter.org/">Jupyter</a></h3>
-<p>As explained <a href="http://jupyter.org/">on its homepage</a> <a href="http://jupyter.org/">Jupyter</a> is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, and much more. While its predecessor, IPython notebook, was only built to work with Python, <a href="http://jupyter.org/">Jupyter</a> supports many other languages such as Julia and R, although both Kernels are still in its early stages. This is, by the way, where the name is coming from, as <a href="http://jupyter.org/">Jupyter</a>is an acronym for Ju(lia)Py(ton)te(R). The difference between <a href="http://yihui.name/knitr/">knitr</a> and <a href="http://jupyter.org/">Jupyter</a> is that the latter allows for live code and text evaluation. While RMarkdown files need to be compiled for evaluation to take place, code cells in a <a href="http://jupyter.org/">Jupyter</a> notebook are evaluated on the fly. This makes <a href="http://jupyter.org/">Jupyter</a> highly recommendable for interactive teaching of programming since students can follow live and take notes while the instructor dynamically changes the code in response to questions and suggestions.</p>
-<p>Installation:</p>
-</div>
-<div id="git-and-githubgithub" class="section level3">
-<h3><a href="https://github.com/">Git and GitHub</a></h3>
-<p><a href="https://github.com/">GitHub</a> is primarily a code sharing and collaboration platform that is build around <a href="https://git-scm.com/">Git</a>, a highly sophisticated version control system that is nowadays used by many open source developers worldwide. While developing software is probably not really that interesting to students, <a href="https://github.com/">GitHub</a> is nevertheless very useful when working together on a project that involves writing code of any kind. Even when not working on an own project, knowing your way around <a href="https://github.com/">GitHub</a> is indispensable when you have an interest in anything related to coding as this would sooner or later lead you to <a href="https://github.com/">GitHub</a> .</p>
-<p>Installation: Start <a href="https://help.github.com/articles/set-up-git/">here</a></p>
-<hr />
-</div>
-</div>
-<div id="miscellaneous-spts" class="section level2">
-<h2>Miscellaneous SPT’s</h2>
-<div id="sharexsharex" class="section level3">
-<h3><a href="https://getsharex.com/">ShareX</a></h3>
-<p>ShareX is a free, modern screen capturing, screen recording tool. The tool allows capturing a screenshot in a variety of modes, such as full screen, window, monitor, rectangle, polygon and more. ShareX also offers various after-capture tasks like annotating, adding effects, watermarking, uploading and printing. It conveniently saves screenshots as a regular .png or as url for immediate sharing.</p>
-</div>
-<div id="jabrefjabref" class="section level3">
-<h3><a href="http://www.jabref.org/">JabRef</a></h3>
-<p><a href="http://www.jabref.org/">JabRef</a> is a jave-based open source bibliography reference manager that helps you organize your books, papers and other documents. It is desigend to work with <a href="https://www.latex-project.org/">LaTeX</a> as it stores its information in <a href="https://www.latex-project.org/">LaTeX’</a> native BiTeX style. Hence, it is the ideal tool for storing and organizing your <a href="https://www.latex-project.org/">LaTeX</a> bibliography.</p>
-</div>
-<div id="bibsonomyscraping" class="section level3">
-<h3><a href="http://scraper.bibsonomy.org/">BibSonomy:scraping</a></h3>
-<p>The bibsonomy::scraping service can be given any url that contains bibliography information in its HTML code. Once given an url, the web scraper search the HTML code for bibliography information and returns it as BibTeX code which can immediately be used in <a href="https://www.latex-project.org/">LaTeX</a> bibliography file (.bib) or more conveniently in JabRef. In my experience the pipeline Scraping -&gt; JabRef -&gt; LaTeX is the quickest and cleanest way to get your bibliography information into LaTeX. A list of supported web pages that allow scraping may be found <a href="http://www.bibsonomy.org/scraperinfo">here</a>.</p>
-</div>
-<div id="puresyncpuresync" class="section level3">
-<h3><a href="https://www.jumpingbytes.com/puresync.html">PureSync</a></h3>
-<p><a href="https://www.jumpingbytes.com/puresync.html">PureSync</a> is a free software - for personal use only, a professional version is available but not necessary - that lets you automate internal and external files and folders synchronization on your computer. This is usually only of interest to Windows users as Mac offers a nice standard backup system. There are many similar programs that might be equally good.</p>
-</div>
-</div>
+<div id="other-books" class="section level2">
+<h2>Other Books</h2>
 </div>
 
 
