@@ -86,7 +86,11 @@ the art styling, convertibility, and seamless integration with other SPT's
 such as [R][R], [GitHub][GitHub], [Jupyter][Jupyter] or [Shiny][Shiny].
 
 Installation: none needed   
-Recommended Editor: [Atom][Atom], [RStudio][RStudio]
+Recommended Editor: [Atom][Atom], [RStudio][RStudio]  
+Recommended Reading:  
+
+- [This](http://rmarkdown.rstudio.com/) page is a good first read, although it 
+mainly focuses on RMarkdown (see below).
 
 ---
 
@@ -138,8 +142,8 @@ Recommended Reading:
 - [Institute for digital research and learning UCLA](http://www.ats.ucla.edu/stat/r/>)
 - [R-Studio cheat cheets](https://www.rstudio.com/resources/cheatsheets/)
 - [Stat545 homepage](http://stat545-ubc.github.io/index.html)
-
-
+- [R-Bloggers](http://www.r-bloggers.com/): In order to stay up-to-date with whats 
+happening in R and what can be done with R.
 
 ### [Stata][Stata]
 
@@ -166,7 +170,7 @@ tools to be used in creating objectively good and meaningful visualizations.
 ### [ggplot2][ggplot2-git]
 
 [ggplot2][ggplot2-git] is **the** [R][R] package for producing statistical
-and/or data graphics, written by Hadely Wickham, one of the most productive -
+and/or data graphics, written by [Hadely Wickham](http://hadley.nz/), one of the most productive -
 if not the most productive - member of the [R][R] family. It has become the de
 facto standard for displaying graphics made with [R][R]. Unlike most other
 graphics packages in [R][R] - or any other statistical program for that matter -
@@ -186,6 +190,7 @@ Recommended Reading:
 (To be published in July 2016)
 - Winston Chang: [*R Graphics Cookbook*][R-graphics]
 - [Data Visualization Cheat Sheet][ggplot2cheatsheet]
+- [ggplot2 Documentation](http://docs.ggplot2.org/current/)
 - <http://vissoc.co/>: Accompaning website for Kieran Healy's course on data visualization
 
 ### [ggvis][ggvis]
@@ -222,7 +227,7 @@ a framework to build beautiful, interactive web application without extended
 knowledge of HTML, CSS or JavaScript. The commands necessary to write basic and
 intermediate shiny application are surprisingly easy to learn, however,
 a working knowledge of JavaScript and HTML is probably very handy for more
-complex projects. As all the statistical work is done in [R][R], a proper
+complex projects. As all the computational work is done in [R][R], a proper
 knowledge of how to do things in [R][R] is required. While [Shiny][Shiny]
 is by no means confined to visualization, it is particularly helpful when
 combined with [ggplot2][ggplot2-git] to produce beautiful graphics that
@@ -244,7 +249,7 @@ Recommended Reading:
 
 ## SPT's for presentations
 
-### Latex-beamer
+### [Latex-beamer](https://de.wikipedia.org/wiki/Beamer_%28LaTeX%29)
 
 The beamer class is used to create presentation slides with [LaTeX][Latex].
 As it is a [LaTeX][Latex] class, it is perfectly suited for high-quality presentations
@@ -260,12 +265,12 @@ Recommended Reading: [Beamer User Guide][beamerguide]
 
 ### [Pandoc][Pandoc]
 
-Pandoc is a universal markup language document converter written by John MacFarlane.
+Pandoc is a universal markup language document converter written by 
+[John MacFarlane](http://johnmacfarlane.net/).
 You can pass any documents written in a markup language like LaTeX, Markdown,
-HTML, Microsoft Word (yes, behind the scenes Word is a markup language too!)
-to Pandoc and convert these from one format to another including different slide
+HTML or even Microsoft Word to Pandoc and convert these from one format to another including different slide
 show formats, HTML code and pdf. Pandoc is not that easy to use
-(requires a command line) but as it is nicely integrate into [RStudio][RStudio]
+(requires a command line) but it is nicely integrate into [RStudio][RStudio]
 via the RMarkdown package. Hence, there is usually no need to use it directly,
 although its good to know that it exists in case you need it.
 
@@ -273,7 +278,7 @@ although its good to know that it exists in case you need it.
 
 First of all, [Knitr][Knitr] is an [R][R] package. More importantly, however,
 it is a general-purpose literate programming engine. Literate programming is a
-term coined by Donald Knuth the creator of the TeX typesetting system.
+term coined by [Donald Knuth](https://de.wikipedia.org/wiki/Donald_E._Knuth) the creator of the TeX typesetting system.
 It basically centers around the idea that programming does not only consist
 of writing many lines of code but, equally important, it involves writing a
 narrative that explains what the code actually does and how the program or
@@ -288,7 +293,7 @@ has major shortcomings, mainly:
 + it is error-prone due to copy-and-pasting
 + inherently static: if results depend on previous results, the whole chain
 has to be manually rewritten if any of the results within the chain are changed.
-+ it is likely to produce layout conflicts and inconsistent styling which
++ it is likely to produce layout conflicts and inconsistent stylings.
 
 [Knitr][Knitr] enables the use of both program code and sophisticated comments
 within one single document. Although [Knitr][Knitr] is an [R][R] package it
@@ -299,13 +304,14 @@ integrated into [RStudio][RStudio] but does not depend on it.
 
 Recommended Reading:
 
-+ Yihui Xie - Dynamic Documents with R and knitr
++ Yihui Xie: *Dynamic Documents with R and knitr*
 
 ### [RMarkdown v2][RMarkdown]
 
-RMarkdown is an [R][R] package that is usually refered to R Markdown v2 to
+RMarkdown is an [R][R] package that is usually refered to as *R Markdown v2* to
 distinguish it from an earlier version. It basically brings Markdown, [Knitr][Knitr]
 and [Pandoc][Pandoc] together. It enables easy creation of dynamic documents (via [Knitr][Knitr]) in different formats (via [Pandoc][Pandoc]) including Pandoc's version of the Markdown language. Similar to [Knitr][Knitr], it is tightly integrated into the [RStudio][RStudio] IDE making it extremly easy to use (literally one click is sometimes enough).
+
 Recommended Reading:
 
  + [This][RMardown-Reading] is a very good, detailed but also long intro to [RMarkdown][RMarkdown] and reproducible research in general.
@@ -314,9 +320,8 @@ Recommended Reading:
 
 ### [Jupyter][Jupyter]
 
-As explained [on its homepage][Jupyter] [Jupyter][Jupyter] is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, and much more. While its predecessor, IPython notebook, was only built to work with Python, [Jupyter][Jupyter] supports many other languages such as Julia and R, although both Kernels are still in its early stages. This is, by the way, where the name is coming from, as [Jupyter][Jupyter]is an acronym for Ju(lia)Py(ton)te(R). The difference between [knitr][knitr] and [Jupyter][Jupyter] is that the latter allows for live code and text evaluation. While RMarkdown files need to be compiled for evaluation to take place, code cells in a [Jupyter][Jupyter] notebook are evaluated on the fly. This makes [Jupyter][Jupyter] highly recommendable for interactive teaching of programming since students can follow live and take notes while the instructor dynamically changes the code in response to questions and suggestions.
+As explained [on its homepage][Jupyter] [Jupyter][Jupyter] is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, and much more. While its predecessor, IPython notebook, was only built to work with Python, [Jupyter][Jupyter] supports many other languages such as Julia and R, although both Kernels are still in its early stages. This is, by the way, where the name is coming from, as [Jupyter][Jupyter] is an acronym for Ju(lia)Py(ton)te(R). The difference between [knitr][knitr] and [Jupyter][Jupyter] is that the latter allows for live code and text evaluation. While RMarkdown files need to be compiled for evaluation to take place, code cells in a [Jupyter][Jupyter] notebook are evaluated on the fly. This makes [Jupyter][Jupyter] highly recommendable for interactive teaching of programming since students can follow live and take notes while the instructor dynamically changes the code in response to questions and suggestions.
 
-Installation:
 
 ### [Git and GitHub][GitHub]
 
@@ -330,7 +335,7 @@ way around [GitHub][GitHub] is indispensable when you have an interest in
 anything related to coding as this would sooner or later lead you to
 [GitHub][GitHub] .
 
-Installation: Start [here](https://help.github.com/articles/set-up-git/)
+Installation: Download Git [here][Git] and start your setup [here](https://help.github.com/articles/set-up-git/)
 
 ---
 

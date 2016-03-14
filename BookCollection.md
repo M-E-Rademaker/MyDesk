@@ -35,11 +35,18 @@ This is a collection of books I've found useful when learning about R, data visu
    Author: Norman Matloff  
    Year: 2011  
    Edition: 1
+   
+1. Title: **R for Data Science**  
+   Author: Garrett Grolemund and Hadley Wickham  
+   Year: 2016  
+   Edition: 1  
+   On the web: <http://r4ds.had.co.nz/>
 
 1. Title: **Advanced R**  
    Author: Hadley Wickham  
    Year: 2014  
-   Edition: 1
+   Edition: 1  
+   On the web: <http://adv-r.had.co.nz/>
 
 1. Title: **ggplot2**  
    Author: Hadley Wickham  
@@ -49,12 +56,13 @@ This is a collection of books I've found useful when learning about R, data visu
 1. Title: **R Cookbook**  
    Author: Paul Teetor   
    Year : 2011  
-   Edition: 1
+   Edition: 1  
 
 1. Title: **R Graphics Cookbook**  
    Author: Winston Chang  
    Year : 2013  
-   Edition: 1
+   Edition: 1  
+   On the web (excerpts): <http://www.cookbook-r.com/> 
 
 1. Title: **Dynamic Documents with R and Knitr**  
    Author: Yihui Xie  

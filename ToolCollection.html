@@ -99,7 +99,11 @@ img {
 <p>Text written in <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> is basically regular text with some additional “comments” like “#” that tell the processing engine what it should do with the text (in this case: “#” tells the engine to convert the line following the “#” to the appropriate html code indicating a first-level header). Allowing only a small set of such “comments”, it is easy to learn, yet powerful enough to cover most of the formatting tasks you usually want to do while leaving the rest to more advanced programs such as <a href="https://www.latex-project.org/">LaTeX</a>. In this respect, although fundamentally different, it may be seen as at “LaTeX-light”.</p>
 <p>The major advantages of <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a>, besides simplicity, are state of the art styling, convertibility, and seamless integration with other SPT’s such as <a href="https://www.r-project.org/">R</a>, <a href="https://github.com/">GitHub</a>, <a href="http://jupyter.org/">Jupyter</a> or <a href="http://shiny.rstudio.com/">Shiny</a>.</p>
 <p>Installation: none needed<br />
-Recommended Editor: <a href="https://atom.io/">Atom</a>, <a href="https://www.rstudio.com/">RStudio</a></p>
+Recommended Editor: <a href="https://atom.io/">Atom</a>, <a href="https://www.rstudio.com/">RStudio</a><br />
+Recommended Reading:</p>
+<ul>
+<li><a href="http://rmarkdown.rstudio.com/">This</a> page is a good first read, although it mainly focuses on RMarkdown (see below).</li>
+</ul>
 <hr />
 </div>
 </div>
@@ -125,7 +129,8 @@ Recommended Reading:</p>
 <li><p>Hadely Wickham: <em>Advanced R</em></p></li>
 <li><a href="http://www.ats.ucla.edu/stat/r/%3E">Institute for digital research and learning UCLA</a></li>
 <li><a href="https://www.rstudio.com/resources/cheatsheets/">R-Studio cheat cheets</a></li>
-<li><p><a href="http://stat545-ubc.github.io/index.html">Stat545 homepage</a></p></li>
+<li><a href="http://stat545-ubc.github.io/index.html">Stat545 homepage</a></li>
+<li><p><a href="http://www.r-bloggers.com/">R-Bloggers</a>: In order to stay up-to-date with whats happening in R and what can be done with R.</p></li>
 </ul>
 </div>
 <div id="statastata" class="section level3">
@@ -140,13 +145,14 @@ Recommended Reading:</p>
 <p>While there are many aspects to what makes visualization good (see e.g. <a href="http://www.amazon.de/Show-Me-Numbers-Designing-Enlighten/dp/0970601972">this</a> brilliant book by Stephen Few, or literately anything written by Edward Tufte), this section only describes helpful tools to be used in creating objectively good and meaningful visualizations.</p>
 <div id="ggplot2ggplot2-git" class="section level3">
 <h3><a href="https://github.com/hadley/ggplot2">ggplot2</a></h3>
-<p><a href="https://github.com/hadley/ggplot2">ggplot2</a> is <strong>the</strong> <a href="https://www.r-project.org/">R</a> package for producing statistical and/or data graphics, written by Hadely Wickham, one of the most productive - if not the most productive - member of the <a href="https://www.r-project.org/">R</a> family. It has become the de facto standard for displaying graphics made with <a href="https://www.r-project.org/">R</a>. Unlike most other graphics packages in <a href="https://www.r-project.org/">R</a> - or any other statistical program for that matter - it does not only provide a set of commands useful to produce beautiful, hassle-free graphics but aims higher by building on a deep underlying <strong>grammar of graphics</strong>. This is what makes <a href="https://github.com/hadley/ggplot2">ggplot2</a> so powerful! Learning the grammar will not only help new users to master the many commands used in producing a high class graphic, but will also force you -or, to put it more mildly, help you- to think about what a specific graphic should contain. The importance of <a href="https://github.com/hadley/ggplot2">ggplot2</a> cannot be overstated and should be a must-use for any serious visualization attempt .</p>
+<p><a href="https://github.com/hadley/ggplot2">ggplot2</a> is <strong>the</strong> <a href="https://www.r-project.org/">R</a> package for producing statistical and/or data graphics, written by <a href="http://hadley.nz/">Hadely Wickham</a>, one of the most productive - if not the most productive - member of the <a href="https://www.r-project.org/">R</a> family. It has become the de facto standard for displaying graphics made with <a href="https://www.r-project.org/">R</a>. Unlike most other graphics packages in <a href="https://www.r-project.org/">R</a> - or any other statistical program for that matter - it does not only provide a set of commands useful to produce beautiful, hassle-free graphics but aims higher by building on a deep underlying <strong>grammar of graphics</strong>. This is what makes <a href="https://github.com/hadley/ggplot2">ggplot2</a> so powerful! Learning the grammar will not only help new users to master the many commands used in producing a high class graphic, but will also force you -or, to put it more mildly, help you- to think about what a specific graphic should contain. The importance of <a href="https://github.com/hadley/ggplot2">ggplot2</a> cannot be overstated and should be a must-use for any serious visualization attempt .</p>
 <p>Installation: <code>install.packages(&quot;ggplot2&quot;)</code> in your R console<br />
 Recommended Reading:</p>
 <ul>
 <li>Hadley Wickham: <a href="https://github.com/hadley/ggplot2-book"><em>ggplot2: Elegant Graphics for Data Analysis</em></a> (To be published in July 2016)</li>
 <li>Winston Chang: <a href="http://www.amazon.de/R-Graphics-Cookbook-Winston-Chang/dp/1449316956/ref=pd_bxgy_14_img_3?ie=UTF8&amp;refRID=1X86HJ6XDM6N9HDH32ZR"><em>R Graphics Cookbook</em></a></li>
 <li><a href="https://www.rstudio.com/resources/cheatsheets/">Data Visualization Cheat Sheet</a></li>
+<li><a href="http://docs.ggplot2.org/current/">ggplot2 Documentation</a></li>
 <li><a href="http://vissoc.co/" class="uri">http://vissoc.co/</a>: Accompaning website for Kieran Healy’s course on data visualization</li>
 </ul>
 </div>
@@ -163,7 +169,7 @@ Recommended Editor: <a href="http://www.tikzedt.org/">TikzEd</a>, <a href="http:
 </div>
 <div id="shinyshiny" class="section level3">
 <h3><a href="http://shiny.rstudio.com/">Shiny</a></h3>
-<p><a href="http://shiny.rstudio.com/">Shiny</a> is an <a href="https://www.r-project.org/">R</a> package created by <a href="https://www.rstudio.com/">RStudio</a> that provides a framework to build beautiful, interactive web application without extended knowledge of HTML, CSS or JavaScript. The commands necessary to write basic and intermediate shiny application are surprisingly easy to learn, however, a working knowledge of JavaScript and HTML is probably very handy for more complex projects. As all the statistical work is done in <a href="https://www.r-project.org/">R</a>, a proper knowledge of how to do things in <a href="https://www.r-project.org/">R</a> is required. While <a href="http://shiny.rstudio.com/">Shiny</a> is by no means confined to visualization, it is particularly helpful when combined with <a href="https://github.com/hadley/ggplot2">ggplot2</a> to produce beautiful graphics that can be changed on the fly.</p>
+<p><a href="http://shiny.rstudio.com/">Shiny</a> is an <a href="https://www.r-project.org/">R</a> package created by <a href="https://www.rstudio.com/">RStudio</a> that provides a framework to build beautiful, interactive web application without extended knowledge of HTML, CSS or JavaScript. The commands necessary to write basic and intermediate shiny application are surprisingly easy to learn, however, a working knowledge of JavaScript and HTML is probably very handy for more complex projects. As all the computational work is done in <a href="https://www.r-project.org/">R</a>, a proper knowledge of how to do things in <a href="https://www.r-project.org/">R</a> is required. While <a href="http://shiny.rstudio.com/">Shiny</a> is by no means confined to visualization, it is particularly helpful when combined with <a href="https://github.com/hadley/ggplot2">ggplot2</a> to produce beautiful graphics that can be changed on the fly.</p>
 <p>Installation: <code>install.packages(&quot;shiny&quot;)</code> in your R console<br />
 Recommended Editor: <a href="https://www.rstudio.com/">RStudio</a><br />
 Recommended Tutorial:</p>
@@ -182,7 +188,7 @@ Recommended Tutorial:</p>
 <div id="spts-for-presentations" class="section level2">
 <h2>SPT’s for presentations</h2>
 <div id="latex-beamer" class="section level3">
-<h3>Latex-beamer</h3>
+<h3><a href="https://de.wikipedia.org/wiki/Beamer_%28LaTeX%29">Latex-beamer</a></h3>
 <p>The beamer class is used to create presentation slides with <a href="https://www.latex-project.org/">LaTeX</a>. As it is a <a href="https://www.latex-project.org/">LaTeX</a> class, it is perfectly suited for high-quality presentations that make extensive use of mathematical notations and symbols and require fine control over the appearance.</p>
 <p>Installation: A working <a href="https://www.latex-project.org/">LaTeX</a> installation such as <a href="http://miktex.org/">MikTeX</a>.<br />
 Recommended Reading: <a href="http://sunsite.informatik.rwth-aachen.de/ftp/pub/mirror/ctan/macros/latex/contrib/beamer/doc/beameruserguide.pdf">Beamer User Guide</a></p>
@@ -193,26 +199,27 @@ Recommended Reading: <a href="http://sunsite.informatik.rwth-aachen.de/ftp/pub/m
 <h2>SPT’s that bring ’em all together</h2>
 <div id="pandocpandoc" class="section level3">
 <h3><a href="http://pandoc.org/index.html">Pandoc</a></h3>
-<p>Pandoc is a universal markup language document converter written by John MacFarlane. You can pass any documents written in a markup language like LaTeX, Markdown, HTML, Microsoft Word (yes, behind the scenes Word is a markup language too!) to Pandoc and convert these from one format to another including different slide show formats, HTML code and pdf. Pandoc is not that easy to use (requires a command line) but as it is nicely integrate into <a href="https://www.rstudio.com/">RStudio</a> via the RMarkdown package. Hence, there is usually no need to use it directly, although its good to know that it exists in case you need it.</p>
+<p>Pandoc is a universal markup language document converter written by <a href="http://johnmacfarlane.net/">John MacFarlane</a>. You can pass any documents written in a markup language like LaTeX, Markdown, HTML or even Microsoft Word to Pandoc and convert these from one format to another including different slide show formats, HTML code and pdf. Pandoc is not that easy to use (requires a command line) but it is nicely integrate into <a href="https://www.rstudio.com/">RStudio</a> via the RMarkdown package. Hence, there is usually no need to use it directly, although its good to know that it exists in case you need it.</p>
 </div>
 <div id="knitrknitr" class="section level3">
 <h3><a href="http://yihui.name/knitr/">Knitr</a></h3>
-<p>First of all, <a href="http://yihui.name/knitr/">Knitr</a> is an <a href="https://www.r-project.org/">R</a> package. More importantly, however, it is a general-purpose literate programming engine. Literate programming is a term coined by Donald Knuth the creator of the TeX typesetting system. It basically centers around the idea that programming does not only consist of writing many lines of code but, equally important, it involves writing a narrative that explains what the code actually does and how the program or its functions are supposed to be used. Traditionally, this was done by either writing comments directly in the source file, or by writing a separate documentation. The former has the obvious drawback of being limited to almost no formatting possibilities and requires the readers to be able to open and understand the source file. While the latter approach is better it still has major shortcomings, mainly:</p>
+<p>First of all, <a href="http://yihui.name/knitr/">Knitr</a> is an <a href="https://www.r-project.org/">R</a> package. More importantly, however, it is a general-purpose literate programming engine. Literate programming is a term coined by <a href="https://de.wikipedia.org/wiki/Donald_E._Knuth">Donald Knuth</a> the creator of the TeX typesetting system. It basically centers around the idea that programming does not only consist of writing many lines of code but, equally important, it involves writing a narrative that explains what the code actually does and how the program or its functions are supposed to be used. Traditionally, this was done by either writing comments directly in the source file, or by writing a separate documentation. The former has the obvious drawback of being limited to almost no formatting possibilities and requires the readers to be able to open and understand the source file. While the latter approach is better it still has major shortcomings, mainly:</p>
 <ul>
 <li>it involves lots of human effort (copy-and-pasting)</li>
 <li>it is error-prone due to copy-and-pasting</li>
 <li>inherently static: if results depend on previous results, the whole chain has to be manually rewritten if any of the results within the chain are changed.</li>
-<li>it is likely to produce layout conflicts and inconsistent styling which</li>
+<li>it is likely to produce layout conflicts and inconsistent stylings.</li>
 </ul>
 <p><a href="http://yihui.name/knitr/">Knitr</a> enables the use of both program code and sophisticated comments within one single document. Although <a href="http://yihui.name/knitr/">Knitr</a> is an <a href="https://www.r-project.org/">R</a> package it does not only support R but the most often used document formats such as LaTeX, HTML, Markdown and a broad variety of other programming languages such as Pyton, Julia or even (after some tweaking) Stata. <a href="http://yihui.name/knitr/">Knitr</a> is tightly integrated into <a href="https://www.rstudio.com/">RStudio</a> but does not depend on it.</p>
 <p>Recommended Reading:</p>
 <ul>
-<li>Yihui Xie - Dynamic Documents with R and knitr</li>
+<li>Yihui Xie: <em>Dynamic Documents with R and knitr</em></li>
 </ul>
 </div>
 <div id="rmarkdown-v2rmarkdown" class="section level3">
 <h3><a href="http://rmarkdown.rstudio.com/">RMarkdown v2</a></h3>
-<p>RMarkdown is an <a href="https://www.r-project.org/">R</a> package that is usually refered to R Markdown v2 to distinguish it from an earlier version. It basically brings Markdown, <a href="http://yihui.name/knitr/">Knitr</a> and <a href="http://pandoc.org/index.html">Pandoc</a> together. It enables easy creation of dynamic documents (via <a href="http://yihui.name/knitr/">Knitr</a>) in different formats (via <a href="http://pandoc.org/index.html">Pandoc</a>) including Pandoc’s version of the Markdown language. Similar to <a href="http://yihui.name/knitr/">Knitr</a>, it is tightly integrated into the <a href="https://www.rstudio.com/">RStudio</a> IDE making it extremly easy to use (literally one click is sometimes enough). Recommended Reading:</p>
+<p>RMarkdown is an <a href="https://www.r-project.org/">R</a> package that is usually refered to as <em>R Markdown v2</em> to distinguish it from an earlier version. It basically brings Markdown, <a href="http://yihui.name/knitr/">Knitr</a> and <a href="http://pandoc.org/index.html">Pandoc</a> together. It enables easy creation of dynamic documents (via <a href="http://yihui.name/knitr/">Knitr</a>) in different formats (via <a href="http://pandoc.org/index.html">Pandoc</a>) including Pandoc’s version of the Markdown language. Similar to <a href="http://yihui.name/knitr/">Knitr</a>, it is tightly integrated into the <a href="https://www.rstudio.com/">RStudio</a> IDE making it extremly easy to use (literally one click is sometimes enough).</p>
+<p>Recommended Reading:</p>
 <ul>
 <li><a href="http://www.introductoryr.co.uk/Reproducibility/Markdown_guide.html">This</a> is a very good, detailed but also long intro to <a href="http://rmarkdown.rstudio.com/">RMarkdown</a> and reproducible research in general.</li>
 <li><a href="https://www.rstudio.com/resources/cheatsheets/">R Markdown cheat sheets</a></li>
@@ -220,13 +227,12 @@ Recommended Reading: <a href="http://sunsite.informatik.rwth-aachen.de/ftp/pub/m
 </div>
 <div id="jupyterjupyter" class="section level3">
 <h3><a href="http://jupyter.org/">Jupyter</a></h3>
-<p>As explained <a href="http://jupyter.org/">on its homepage</a> <a href="http://jupyter.org/">Jupyter</a> is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, and much more. While its predecessor, IPython notebook, was only built to work with Python, <a href="http://jupyter.org/">Jupyter</a> supports many other languages such as Julia and R, although both Kernels are still in its early stages. This is, by the way, where the name is coming from, as <a href="http://jupyter.org/">Jupyter</a>is an acronym for Ju(lia)Py(ton)te(R). The difference between <a href="http://yihui.name/knitr/">knitr</a> and <a href="http://jupyter.org/">Jupyter</a> is that the latter allows for live code and text evaluation. While RMarkdown files need to be compiled for evaluation to take place, code cells in a <a href="http://jupyter.org/">Jupyter</a> notebook are evaluated on the fly. This makes <a href="http://jupyter.org/">Jupyter</a> highly recommendable for interactive teaching of programming since students can follow live and take notes while the instructor dynamically changes the code in response to questions and suggestions.</p>
-<p>Installation:</p>
+<p>As explained <a href="http://jupyter.org/">on its homepage</a> <a href="http://jupyter.org/">Jupyter</a> is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, and much more. While its predecessor, IPython notebook, was only built to work with Python, <a href="http://jupyter.org/">Jupyter</a> supports many other languages such as Julia and R, although both Kernels are still in its early stages. This is, by the way, where the name is coming from, as <a href="http://jupyter.org/">Jupyter</a> is an acronym for Ju(lia)Py(ton)te(R). The difference between <a href="http://yihui.name/knitr/">knitr</a> and <a href="http://jupyter.org/">Jupyter</a> is that the latter allows for live code and text evaluation. While RMarkdown files need to be compiled for evaluation to take place, code cells in a <a href="http://jupyter.org/">Jupyter</a> notebook are evaluated on the fly. This makes <a href="http://jupyter.org/">Jupyter</a> highly recommendable for interactive teaching of programming since students can follow live and take notes while the instructor dynamically changes the code in response to questions and suggestions.</p>
 </div>
 <div id="git-and-githubgithub" class="section level3">
 <h3><a href="https://github.com/">Git and GitHub</a></h3>
 <p><a href="https://github.com/">GitHub</a> is primarily a code sharing and collaboration platform that is build around <a href="https://git-scm.com/">Git</a>, a highly sophisticated version control system that is nowadays used by many open source developers worldwide. While developing software is probably not really that interesting to students, <a href="https://github.com/">GitHub</a> is nevertheless very useful when working together on a project that involves writing code of any kind. Even when not working on an own project, knowing your way around <a href="https://github.com/">GitHub</a> is indispensable when you have an interest in anything related to coding as this would sooner or later lead you to <a href="https://github.com/">GitHub</a> .</p>
-<p>Installation: Start <a href="https://help.github.com/articles/set-up-git/">here</a></p>
+<p>Installation: Download Git <a href="https://git-scm.com/">here</a> and start your setup <a href="https://help.github.com/articles/set-up-git/">here</a></p>
 <hr />
 </div>
 </div>
