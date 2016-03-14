@@ -85,11 +85,6 @@ This is a collection of books I've found useful when learning about R, data visu
    Year: 2015      
    Edition: 1
    
-1. Title: **Econometric Analysis of Cross Section and Panel Data**
-   Author: Jeffrey M. Wooldridge     
-   Year: 2015      
-   Edition: 6
-   
 1. Title: **Mostly Harmless Econometrics**   
   Author: Joshua Angrist and Jörn-Steffen Pischke  
   Year: 2008  
