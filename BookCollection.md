@@ -70,12 +70,12 @@ This is a collection of books I've found useful when learning about R, data visu
    Year: 2011  
    Edition: 7
    
-1. Title: **Econometric Analysis of Cross Section and Panel Data**
+1. Title: **Econometric Analysis of Cross Section and Panel Data**  
    Author: Jeffrey M. Wooldridge     
    Year: 2010      
    Edition: 2
    
-1. Title: **Introductory Econometrics - A Modern Approach**
+1. Title: **Introductory Econometrics - A Modern Approach**  
    Author: Jeffrey M. Wooldridge     
    Year: 2015      
    Edition: 6
