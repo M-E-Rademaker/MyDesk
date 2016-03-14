@@ -58,7 +58,7 @@ This is a collection of books I've found useful when learning about R, data visu
 
 1. Title: **Dynamic Documents with R and Knitr**  
    Author: Yihui Xie  
-   Year : 2013
+   Year : 2013  
    Edition: 1
 
 ***
@@ -66,16 +66,31 @@ This is a collection of books I've found useful when learning about R, data visu
 ## Books related to econometrics
 
 1. Title: **Econometric Analysis**  
-   Author: Whilliam Greene  
+   Author: William Greene  
    Year: 2011  
    Edition: 7
-
-1. Title: **Mostly Harmless Econometrics**   
-   Author: Joshua Angrist and Jörn-Steffen Pischke  
-   Year: 2008  
-   Edition: 1
+   
+1. Title: **Econometric Analysis of Cross Section and Panel Data**
+   Author: Jeffrey M. Wooldridge     
+   Year: 2010      
+   Edition: 2
+   
+1. Title: **Introductory Econometrics - A Modern Approach**
+   Author: Jeffrey M. Wooldridge     
+   Year: 2015      
+   Edition: 6
 
 1. Title: **Mastering Metrics**  
    Author: Joshua Angrist and Jörn-Steffen Pischke    
-   Year: 2015    
+   Year: 2015      
    Edition: 1
+   
+1. Title: **Econometric Analysis of Cross Section and Panel Data**
+   Author: Jeffrey M. Wooldridge     
+   Year: 2015      
+   Edition: 6
+   
+1. Title: **Mostly Harmless Econometrics**   
+  Author: Joshua Angrist and Jörn-Steffen Pischke  
+  Year: 2008  
+  Edition: 1
