@@ -1,9 +1,8 @@
 ---
-title: # Books
+title: "Books"
+output: pdf_document
 date: "12 April 2016"
-output: html_document
 ---
-
 
 This is a collection of books I've found useful when learning about R, data visualization and econometrics. I've roughly grouped them by their main subject, however, the distinction is not meant to be that strict. This list will be extended whenever I find something new that is worth mentioning.
 
