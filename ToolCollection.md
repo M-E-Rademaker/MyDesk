@@ -15,6 +15,7 @@ Software, Programs and Tools for the Scientific Workflow
     -   [Shiny](#shiny)
 -   [SPT's for presentations](#spts-for-presentations)
     -   [Latex-beamer](#latex-beamer)
+    -   [IoSlide and Slidy](#ioslide-and-slidy)
 -   [SPT's that bring 'em all together](#spts-that-bring-em-all-together)
     -   [Pandoc](#pandoc)
     -   [Knitr](#knitr)
@@ -22,6 +23,7 @@ Software, Programs and Tools for the Scientific Workflow
     -   [Jupyter](#jupyter)
     -   [Git and GitHub](#git-and-github)
 -   [Miscellaneous SPT's](#miscellaneous-spts)
+    -   [Virtual Box](#virtual-box)
     -   [ShareX](#sharex)
     -   [JabRef](#jabref)
     -   [BibSonomy:scraping](#bibsonomyscraping)
@@ -155,7 +157,16 @@ SPT's for presentations
 The beamer class is used to create presentation slides with [LaTeX](https://www.latex-project.org/). As it is a [LaTeX](https://www.latex-project.org/) class, it is perfectly suited for high-quality presentations that make extensive use of mathematical notations and symbols and require fine control over the appearance.
 
 Installation: A working [LaTeX](https://www.latex-project.org/) installation such as [MikTeX](http://miktex.org/).
+Recommended Editor:
+
+-   [TexMaker](http://www.xm1math.net/texmaker/) if you want to create the presenation directly with Latex.
+-   [RStudio](https://www.rstudio.com/) if you want to create a beamer presentation from an RMarkdown file using `beamer_presentation` in you YAML header.
+
 Recommended Reading: [Beamer User Guide](http://sunsite.informatik.rwth-aachen.de/ftp/pub/mirror/ctan/macros/latex/contrib/beamer/doc/beameruserguide.pdf)
+
+### IoSlide and Slidy
+
+Both IoSlides and Slidy are web-based alternatives to standard pdf presentations. IoSlides or Slidy slides are basically html pages that can be run directly within the browser. This makes them highly shareable and portable. Slides are best from within RStudio created by knitting an RMarkdown file using `ioslide_presentation` or `slidy_presentation` in your YAML header.
 
 ------------------------------------------------------------------------
 
@@ -164,7 +175,7 @@ SPT's that bring 'em all together
 
 ### Pandoc
 
-Pandoc is a universal markup language document converter written by John MacFarlane. You can pass any documents written in a markup language like LaTeX, Markdown, HTML, Microsoft Word (yes, behind the scenes Word is a markup language too!) to Pandoc and convert these from one format to another including different slide show formats, HTML code and pdf. Pandoc is not that easy to use (requires a command line) but as it is nicely integrate into [RStudio](https://www.rstudio.com/) via the RMarkdown package. Hence, there is usually no need to use it directly, although its good to know that it exists in case you need it.
+Pandoc is a universal markup language document converter written by John MacFarlane. You can pass any documents written in a markup language like LaTeX, Markdown, HTML to Pandoc and convert these from one format to another including different slide show formats, HTML code and pdf (try it out yourself [here](http://pandoc.org/try/). Pandoc works best, however, if given a (R)Markdown file as input. Pandoc is not that easy to use (requires a command line) but as it is nicely integrate into the [RStudio](https://www.rstudio.com/) IDE via the RMarkdown package, there is usually no need to use it directly, although its good to know that it exists in case you need it.
 
 ### Knitr
 
@@ -205,9 +216,13 @@ Installation: Start [here](https://help.github.com/articles/set-up-git/)
 Miscellaneous SPT's
 -------------------
 
+### Virtual Box
+
+[Virtual Box](https://www.virtualbox.org/) lets you set up a virtual machine on your local computer. This is especially useful if you want to have Linux running in paralell on a windows machine (or the other way around) and dont want the inconvienience of a dual boot machine. When setting up the machine the user can choose how much of the computer resources (such as RAM, Disk Space etc.) the virtual machine should be able to use.
+
 ### ShareX
 
-ShareX is a free, modern screen capturing, screen recording tool. The tool allows capturing a screenshot in a variety of modes, such as full screen, window, monitor, rectangle, polygon and more. ShareX also offers various after-capture tasks like annotating, adding effects, watermarking, uploading and printing. It conveniently saves screenshots as a regular .png or as url for immediate sharing.
+[ShareX](https://getsharex.com/%5D) is a free, modern screen capturing, screen recording tool. The tool allows capturing a screenshot in a variety of modes, such as full screen, window, monitor, rectangle, polygon and more. ShareX also offers various after-capture tasks like annotating, adding effects, watermarking, uploading and printing. It conveniently saves screenshots as a regular .png or as url for immediate sharing.
 
 ### JabRef
 
