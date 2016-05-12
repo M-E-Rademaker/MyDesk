@@ -13,10 +13,10 @@ This is a collection of books I've found useful when learning about R, data visu
 Books related to visualization
 ------------------------------
 
-1.  Title: **The Elements of Graphing Data**  
-     Author: William S. Cleveland  
-     Year: 1994  
-     Edition: 2  
+1.  Title: **The Elements of Graphing Data**
+     Author: William S. Cleveland
+     Year: 1994
+     Edition: 2
 
 2.  Title **The Visual Display of Quantitative Information**
      Author: Edward Tufte
