@@ -1,7 +1,10 @@
 ---
 title: "Software, Programs and Tools for the Scientific Workflow"
-output: pdf_document
 date: "12 April 2016"
+output:
+  github_document: 
+    toc: yes
+    toc_depth: 3
 ---
 
 This is a collection of useful software, programs and tools (SPT's) that in some 
@@ -38,7 +41,7 @@ most notably
   +  reproducibility and cross-platform independence
   +  seamless integration with other SPT's within the scientific workflow
 
-### [LaTeX][Latex]
+### LaTeX
 
 [LaTeX][Latex] is a free and open-source high-quality typesetting system. 
 It may be used for pretty much anything related to typesetting whether it is a 
@@ -61,7 +64,7 @@ Installation:
 
 Recommended Editors: [TeXMaker][Texmaker], [TeXstudio]
 
-### [Markdown][Markdown]
+### Markdown
 
 [Markdown][Markdown] is a very simple markup language with plain text formatting 
 syntax that was designed to be as easy-to-read and easy-to-write for humans as 
@@ -106,7 +109,7 @@ Additionally, they usually only poorly integrate with other SPT's,
 which is a major obstacle in the scientific workflow. 
 See e.g. [this][eKonometrics] post.
 
-### [R][R]
+### R
 
 [R][R] is an open-source software environment for statistical computing and 
 graphics. It is a primarily a command language, although a graphical user 
@@ -139,7 +142,7 @@ Recommended Reading:
 - Paul Teetor: *R Cookbook*
 - Hadely Wickham: *Advanced R*
 
-### [Stata][Stata]
+### Stata
 
 [Stata][Stata] is a powerful commercial software for data analysis and graphics. 
 It has a relatively simple syntax mitigating the initial pain associated with 
@@ -154,14 +157,15 @@ both [Stata][Stata] and [R][R] is ideal as it allows to combine the best of both
 
 Visualization is an integral part of the data analysis. Proper visualization 
 does not only help to summarize what you already know but 
-*it forces us to notice what  we never expected to see* (John Tukey).
+
+> it forces us to notice what  we never expected to see (John Tukey).
 
 While there are many aspects to what makes visualization good 
 (see e.g. [this][ShowMeTheNumbers] brilliant book by Stephen Few, or literately 
 anything written by Edward Tufte), this section only describes helpful 
 tools to be used in creating objectively good and meaningful visualizations.
 
-### [ggplot2][ggplot2-git]
+### ggplot2
 
 [ggplot2][ggplot2-git] is **the** [R][R] package for producing statistical 
 and/or data graphics, written by Hadely Wickham, one of the most productive - 
@@ -185,7 +189,7 @@ Recommended Reading:
 - Winston Chang: [*R Graphics Cookbook*][R-graphics]
 - [Data Visualization Cheat Sheet][ggplot2cheatsheet]
 
-### [ggvis][ggvis]
+### ggvis
 
 [ggvis][ggvis] is a still-in-active-developement [R][R] package for data 
 visualization. Like [ggplot2][ggplot2-git], it centers around the grammar of 
@@ -197,7 +201,7 @@ of interactive visualization in a couple of years.
 
 Installation: `install.packages("ggvis")` in your R console  
 
-### [TikZ][Tikz]
+### TikZ
 
 [TikZ][Tikz] is a Tex package that offers a huge amount of commands to produce 
 vector graphics of any kind. As [TikZ][Tikz] is to be used in (La)TeX, fonts 
@@ -212,7 +216,7 @@ Installation: `usepackage(tikz)` in your LaTeX preamble.
 Recommended Editor: [TikzEd][TikzEd], [TeXMaker][Texmaker]
 
 
-### [Shiny][Shiny]
+### Shiny
 
 [Shiny][Shiny] is an [R][R] package created by [RStudio][RStudio] that provides 
 a framework to build beautiful, interactive web application without extended 
@@ -249,7 +253,7 @@ Recommended Reading: [Beamer User Guide][beamerguide]
 
 ## SPT's that bring 'em all together
 
-### [Pandoc][Pandoc]
+### Pandoc
 
 Pandoc is a universal markup language document converter written by John MacFarlane. 
 You can pass any documents written in a markup language like LaTeX, Markdown, 
@@ -260,7 +264,7 @@ show formats, HTML code and pdf. Pandoc is not that easy to use
 via the RMarkdown package. Hence, there is usually no need to use it directly,
 although its good to know that it exists in case you need it.
 
-### [Knitr][Knitr]
+### Knitr
 
 First of all, [Knitr][Knitr] is an [R][R] package. More importantly, however, 
 it is a general-purpose literate programming engine. Literate programming is a 
@@ -292,7 +296,7 @@ Recommended Reading:
 
 + Yihui Xie - Dynamic Documents with R and knitr
 
-### [RMarkdown v2][RMarkdown]
+### RMarkdown v2
 
 RMarkdown is an [R][R] package that is usually refered to R Markdown v2 to 
 distinguish it from an earlier version. It basically brings Markdown, [Knitr][Knitr]
@@ -303,13 +307,13 @@ Recommended Reading:
  + [R Markdown cheat sheets][rmarkdowncheatsheet]
 
 
-### [Jupyter][Jupyter]
+### Jupyter
 
 As explained [on its homepage][Jupyter] [Jupyter][Jupyter] is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, and much more. While its predecessor, IPython notebook, was only built to work with Python, [Jupyter][Jupyter] supports many other languages such as Julia and R, although both Kernels are still in its early stages. This is, by the way, where the name is coming from, as [Jupyter][Jupyter]is an acronym for Ju(lia)Py(ton)te(R). The difference between [knitr][knitr] and [Jupyter][Jupyter] is that the latter allows for live code and text evaluation. While RMarkdown files need to be compiled for evaluation to take place, code cells in a [Jupyter][Jupyter] notebook are evaluated on the fly. This makes [Jupyter][Jupyter] highly recommendable for interactive teaching of programming since students can follow live and take notes while the instructor dynamically changes the code in response to questions and suggestions.
 
 Installation:
 
-### [Git and GitHub][GitHub]
+### Git and GitHub
 
 [GitHub][GitHub] is primarily a code sharing and collaboration platform that is
 build around [Git][Git], a highly sophisticated version control system that is 
@@ -327,23 +331,23 @@ Installation: Start [here](https://help.github.com/articles/set-up-git/)
 
 ## Miscellaneous SPT's
 
-### [ShareX][Sharex]
+### ShareX
 
 ShareX is a free, modern screen capturing, screen recording tool. The tool allows capturing a screenshot in a variety of modes, such as full screen, window, monitor, rectangle, polygon and more. ShareX also offers various after-capture tasks like annotating, adding effects, watermarking, uploading and printing. It conveniently saves screenshots as a regular .png or as url for immediate sharing.
 
-### [JabRef][JabRef]
+### JabRef
 
 [JabRef][JabRef] is a jave-based open source bibliography reference manager that helps you organize your books, papers and other documents. It is desigend to work with [LaTeX][Latex] as it stores its information in [LaTeX'][Latex] native BiTeX style. Hence, it is the ideal tool for storing and organizing your [LaTeX][Latex] bibliography.
 
-### [BibSonomy:scraping](http://scraper.bibsonomy.org/)
+### BibSonomy:scraping
 
-The bibsonomy::scraping service can be given any url that contains bibliography
+The [bibsonomy::scraping service](http://scraper.bibsonomy.org/) can be given any url that contains bibliography
 information in its HTML code. Once given an url, the web scraper search the HTML code for
 bibliography information and returns it as BibTeX code which can immediately be used
 in [LaTeX][Latex] bibliography file (.bib)  or more conveniently in JabRef. In my experience the pipeline Scraping -> JabRef -> LaTeX is the quickest and cleanest way to get your bibliography information into LaTeX. A list of supported web pages that allow scraping may be found
 [here](http://www.bibsonomy.org/scraperinfo).
 
-### [PureSync][Puresync]
+### PureSync
 
 [PureSync][Puresync] is a free software - for personal use only, a professional version is available but not necessary - that lets you automate internal and external files and folders synchronization on your computer. This is usually only of interest to Windows users as Mac offers a nice standard backup system. There are many similar programs that might be equally good.
 
