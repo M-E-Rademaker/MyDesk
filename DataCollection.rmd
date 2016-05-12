@@ -1,6 +1,6 @@
 ---
 title: "Data sets"
-date: "12 April 2016"
+date: "`r format(Sys.Date(), '%d %B, %Y')`"
 output: 
   github_document: 
     toc: yes
@@ -10,6 +10,8 @@ output:
 This is a collection of both "real" and example data useful for the illustration 
 of different aspects related to data science (e.g. visualization, modeling or
 statistical thinking in general).
+
+***
 
 ## ggplot2movies
 
@@ -40,6 +42,8 @@ library(ggplot2movies)
 data("movies")
 ```
 
+***
+
 ## ggplot2::mpg
 
 **Description**: The dataset contains a subset of the fuel economy data that the 
@@ -69,6 +73,8 @@ library(ggplot2)
 data("mpg")
 ```
 
+***
+
 ## ggplot2::txhousing
 
 **Description**: Information about the housing market in Texas provided by the [real estate center of the Texas A&M University (TAMU)](http://recenter.tamu.edu/). Data on all variables was collected on a monthly basis from January 2000 to July 2015 with 187 observations for each of the 46 Texan cities within the dataset, totaling the number of observations to 8602. There are 9 variables:
@@ -92,6 +98,8 @@ install.packages("ggplot2")
 library(ggplot2)
 data("txhousing")
 ```
+
+***
 
 ## nycflights13
 

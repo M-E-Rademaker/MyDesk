@@ -1,6 +1,6 @@
 Data sets
 ================
-12 April 2016
+12 Mai, 2016
 
 -   [ggplot2movies](#ggplot2movies)
 -   [ggplot2::mpg](#ggplot2mpg)
@@ -8,6 +8,8 @@ Data sets
 -   [nycflights13](#nycflights13)
 
 This is a collection of both "real" and example data useful for the illustration of different aspects related to data science (e.g. visualization, modeling or statistical thinking in general).
+
+------------------------------------------------------------------------
 
 ggplot2movies
 -------------
@@ -34,6 +36,8 @@ install.packages("ggplot2movies")
 library(ggplot2movies)
 data("movies")
 ```
+
+------------------------------------------------------------------------
 
 ggplot2::mpg
 ------------
@@ -63,6 +67,8 @@ library(ggplot2)
 data("mpg")
 ```
 
+------------------------------------------------------------------------
+
 ggplot2::txhousing
 ------------------
 
@@ -88,6 +94,8 @@ install.packages("ggplot2")
 library(ggplot2)
 data("txhousing")
 ```
+
+------------------------------------------------------------------------
 
 nycflights13
 ------------

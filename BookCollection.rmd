@@ -1,7 +1,10 @@
 ---
 title: "Books"
-date: "12 April 2016"
-output: github_document
+date: "`r format(Sys.Date(), '%d %B, %Y')`"
+output:
+  github_document: 
+    toc: yes
+    toc_depth: 3
 ---
 
 This is a collection of books I've found useful when learning about R, data visualization 

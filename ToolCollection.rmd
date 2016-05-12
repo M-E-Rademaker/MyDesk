@@ -1,6 +1,6 @@
 ---
 title: "Software, Programs and Tools for the Scientific Workflow"
-date: "12 April 2016"
+date: "`r format(Sys.Date(), '%d %B, %Y')`"
 output:
   github_document: 
     toc: yes

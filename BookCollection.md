@@ -1,6 +1,10 @@
 Books
 ================
-12 April 2016
+12 Mai, 2016
+
+-   [Books related to visualization](#books-related-to-visualization)
+-   [Books related to R](#books-related-to-r)
+-   [Books related to econometrics](#books-related-to-econometrics)
 
 This is a collection of books I've found useful when learning about R, data visualization and econometrics. I've roughly grouped them by their main subject, however, the distinction is not meant to be that strict. This list will be extended whenever I find something new that is worth mentioning.
 
@@ -39,7 +43,7 @@ Books related to R
      Year: 2011
      Edition: 1
 
-Description: This book is perfectly suited for those who already know some R and are not totally new to programming in general. As the book uses some more advanced terminology and covers topics that are probably not of interest to beginners (such as efficiency considerations or parell computing) I'd recommend this book to all those who want to deepen their understanding of the language and take their experience up one level by getting systematic advice on how to do things in R.
+Description: This book is perfectly suited for those who already know some R and are not totally new to programming in general. As the book uses some more advanced terminology and covers topics that are probably not of interest to beginners (such as efficiency considerations or paralell computing) I'd recommend this book to all those who want to deepen their understanding of the language and take their experience up one level by getting systematic advice on how to do things in R.
 
 1.  Title: **R for Data Science**
      Author: Garrett Grolemund and Hadley Wickham
@@ -47,7 +51,7 @@ Description: This book is perfectly suited for those who already know some R and
      Edition: 1
      On the web: <http://r4ds.had.co.nz/>
 
-Description: Although the book is still work in progress it looks extremly promising. The book covers all necessary steps involved in practical data analysis: getting your data into R, tidy, transform, model and visualize it as well as
+Description: Although the book is still work in progress it looks extremly promising. The book covers all necessary steps involved in practical data analysis: getting your data into R, tidy, transform, model and visualize it.
 
 1.  Title: **Advanced R**
      Author: Hadley Wickham
@@ -57,21 +61,23 @@ Description: Although the book is still work in progress it looks extremly promi
 
 2.  Title: **ggplot2**
      Author: Hadley Wickham
-     Year: (forthcoming) mid 2016
+     Year: June 2016
      Edition: 2
 
-3.  Title: **R Cookbook**
+Description: Systematically covers almost all aspects related to ggplot2. The book is for all those who want to understand the concept underlying ggplot2 instead of merly bunching together some lines of code.
+
+1.  Title: **R Cookbook**
      Author: Paul Teetor
      Year : 2011
      Edition: 1
 
-4.  Title: **R Graphics Cookbook**
+2.  Title: **R Graphics Cookbook**
      Author: Winston Chang
      Year : 2013
      Edition: 1
      On the web (excerpts): <http://www.cookbook-r.com/>
 
-5.  Title: **Dynamic Documents with R and Knitr**
+3.  Title: **Dynamic Documents with R and Knitr**
      Author: Yihui Xie
      Year : 2013
      Edition: 1
