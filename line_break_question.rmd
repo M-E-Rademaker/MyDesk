@@ -5,7 +5,9 @@ output: github_document
 
 
 1.  My First point  
+
     Another point right below  
+    
     and more
 
 1.  My second point
