@@ -1,13 +1,13 @@
 ---
 title: "Line Break issue"
-output: github_document
+output: 
+  github_document:
+    hard_line_breaks: true
 ---
 
 
 1.  My First point  
-
     Another point right below  
-    
     and more
 
 1.  My second point
