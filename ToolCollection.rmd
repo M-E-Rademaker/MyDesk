@@ -3,6 +3,7 @@ title: "Software, Programs and Tools for the Scientific Workflow"
 date: "`r format(Sys.Date(), '%d %B, %Y')`"
 output:
   github_document: 
+    hard_line_breaks: false
     toc: yes
     toc_depth: 3
 ---
