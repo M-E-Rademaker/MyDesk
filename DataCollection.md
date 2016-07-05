@@ -1,11 +1,13 @@
 Data sets
 ================
-13 Mai, 2016
+05 Juli, 2016
 
 -   [ggplot2movies](#ggplot2movies)
 -   [ggplot2::mpg](#ggplot2mpg)
 -   [ggplot2::txhousing](#ggplot2txhousing)
 -   [nycflights13](#nycflights13)
+-   [University of Texas: Inequality
+    Project](#university-of-texas-inequality-project)
 
 This is a collection of both "real" and example data useful for the
 illustration of different aspects related to data science (e.g.
@@ -40,7 +42,7 @@ at least one vote. There are 24 variables:
 **Version info**: Version `0.0.1` of the `ggplot2movies` package as of
 December 2015.  
 **How to get it**:  
- + In R:
++ In R:
 
 ``` r
 install.packages("ggplot2movies")
@@ -75,10 +77,10 @@ on 38 unique models of car. There are 11 variables:
     midsize, minivan, pickup, suv, 2seater
 
 **Most useful for**: Visualization, simple modeling.  
-**Version Info**: dataset as contained in ggplot2 version `2.0.0`
+**Version info**: dataset as contained in ggplot2 version `2.0.0`
 (December 2015).  
 **How to get it**:  
- + In R:
++ In R:
 
 ``` r
 install.packages("ggplot2")
@@ -113,10 +115,10 @@ of observations to 8602. There are 9 variables:
 
 **Most useful for**: Time-series analysis, seasonal trends,
 visualization, modeling.  
-**Version Info**: dataset as contained in ggplot2 version `2.0.0`
+**Version info**: dataset as contained in ggplot2 version `2.0.0`
 (December 2015).  
 **How to get it**:  
- + In R:
++ In R:
 
 ``` r
 install.packages("ggplot2")
@@ -141,12 +143,34 @@ delays, it also includes a number of other useful datasets such as
 
 **Most useful for**: Visualization, modeling, seasonal trends,
 time-series and cross-sectional regression.  
-**Version Info**: version `0.0.1`  
+**Version info**: version `0.0.1`  
 **How to get it**:  
- + In R:
++ In R:
 
 ``` r
 install.packages("nycflights13")
 library(nycflights13)
 data("flights"); data("planes"); data("airlines"); data("airports"); data("weather")
 ```
+
+------------------------------------------------------------------------
+
+University of Texas: Inequality Project
+---------------------------------------
+
+**Description**: The University of Texas Inequality Project (UTIP)
+produces data sets on pay inequality at the global level, at the
+national level including for Argentina, Brazil, Cuba, China, India, and
+Russia, and at the regional level for Europe. They have also used pay
+inequality as an instrument to estimate measures of household income
+inequality, for a large panel of countries from 1963 through 1999. As
+the ISO3 country codes are given, The data sets can easily be joined
+with other country data. A detailed description can be found on [UTIP's
+website](http://utip.lbj.utexas.edu/default.html). For a peak at what
+can be done with one of their data sets see for example:
+<http://ellisp.github.io/blog/2016/06/30/ehii>
+
+**Most useful for**: Visualization, modeling, time-series and
+cross-sectional regression.  
+**Version info**: last accessed: 05.07.2016  
+**How to get it**: Go to: <http://utip.lbj.utexas.edu/data.html>
