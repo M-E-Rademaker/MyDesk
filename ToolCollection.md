@@ -1,7 +1,9 @@
 Software, Programs and Tools for the Scientific Workflow
 ================
-13 Mai, 2016
+30 März, 2017
 
+-   [The Scientific Workflow (Source:
+    <http://r4ds.had.co.nz/introduction.html>)](#the-scientific-workflow-source-httpr4ds.had.co.nzintroduction.html)
 -   [SPT's for scientific writing](#spts-for-scientific-writing)
     -   [LaTeX](#latex)
     -   [Markdown](#markdown)
@@ -45,12 +47,23 @@ parts:
 -   Analysis data - Visualize, model, transform
 -   Communicate results - Write, present, share
 
-These SPT's are roughly grouped by their main purpose, although this is
-by no means a sharp distinction as most SPT's are useful for different
+This is nicely summarized in the following graphic that has been
+popularized by [Hadley Wickham](http://hadley.nz/), the author of many
+useful R packages and excellent books (see below).
+
+#### The Scientific Workflow (Source: <http://r4ds.had.co.nz/introduction.html>)
+
+![ssdsd](http://r4ds.had.co.nz/diagrams/data-science.png)
+
+When talking about SPT's that help ease the scientific workflow I have
+this workflow in mind.
+
+The SPT's are roughly grouped by their main purpose, although this is by
+no means a sharp distinction as most SPT's are useful for different
 tasks within the circle. Help, documentation, tutorials and examples for
 each of the SPT's mentioned below may easily be found on
-[google](https://www.google.de). I will, however, mention recommended
-reading if I find something particularly useful.
+[Google.com](https://www.google.de). I will, however, mention
+recommended reading if I find something particularly useful.
 
 ------------------------------------------------------------------------
 
@@ -68,6 +81,8 @@ notably
 -   convertibility between different formats (e.g. .pdf and .html)
 -   reproducibility and cross-platform independence
 -   seamless integration with other SPT's within the scientific workflow
+    in particular the connection between computer code/output
+    and writing.
 
 ### LaTeX
 
@@ -83,9 +98,9 @@ bibliography), it excels at that and has hence become the de facto
 standard for the communication and publication of scientific documents.
 While learning [LaTeX](https://www.latex-project.org/) requires more
 effort than learning [Microsoft
-Word](https://products.office.com/de-de/word) (at least initally) it has
-many advantages that make the initial effort worthwhile, in particular
-for those that regularly use mathematical notation.
+Word](https://products.office.com/de-de/word) (at least initially) it
+has many advantages that make the initial effort worthwhile, in
+particular for those that regularly use mathematical notation.
 
 Installation:
 
@@ -117,8 +132,8 @@ standard in most scientific forums and platforms, most notably
 dialect (extension). The number of different dialects that have evolved
 since the original
 [Markdown](https://guides.github.com/features/mastering-markdown/)
-language was first introduced in 2004 are a bit confusing, however, they
-are largely compatible amongst each other.
+language was first introduced in 2004 may be a bit confusing to
+newcomers, however, they are largely compatible amongst each other.
 
 Text written in
 [Markdown](https://guides.github.com/features/mastering-markdown/) is
@@ -150,9 +165,22 @@ SPT's for statistical and data analysis
 
 Statistical analysis is at the heart of the answer to most scientific
 questions. This is especially true for questions related to economics
-and/or businesses management. A set of SPT's that help built, explore,
-evaluate, and interpret models of any complexity is therefore
-indispensable. While standard spread sheet programs such as [Microsoft
+and/or businesses management. While classical statistical and
+econometric *theory* does not necessarily require the use of computer
+software, actual *application* and data analysis in general is
+inherently computer driven. Furthermore modern statistics (like neural
+nets or Monte Carlo simulation) by and large evolved around computer
+driven progress and may thus be seen as inherently computer-dependent.
+This is emphasized by a quote in the 2016 book [Computer Age Statistical
+Inference](https://web.stanford.edu/~hastie/CASI/) by Bradley Efron and
+Trevor Hastie, two of the most famous statisticians/computer scientists:
+
+> Almost all topics in twenty-first century statistics are now
+> computer-dependent \[...\]
+
+Hence, a set of SPT's that help built, explore, evaluate, and interpret
+models of any complexity is therefore indispensable. While standard
+spread sheet programs such as [Microsoft
 Excel](https://products.office.com/de-de/excel) do have its benefits, it
 is important to realize that they are not designed for more complex
 statistical tasks. Additionally, they usually only poorly integrate with
@@ -173,7 +201,7 @@ software such as [EViews](http://www.eviews.com/home.html),
 [Gretl](http://gretl.sourceforge.net/) it has a relatively steep
 learning curve - although the initial hurdle has been considerably
 lowered over the last years, thanks to tutorials, introductory videos,
-well written books and tons of detailed and easy-to-read ocumentation.
+well written books and tons of detailed and easy-to-read documentation.
 The learning curve is usually an obstacle for those new to
 [R](https://www.r-project.org/), however, as mentioned above and as
 described
@@ -187,13 +215,17 @@ pick as statistical software, most notably:
     want to do
 -   By seamlessly integrating with other SPT's
     [R](https://www.r-project.org/) open the door to a world of other
-    SPT'S
+    SPT'S (and incredibly important aspect that as of March 2017 no
+    other software is able to beat)
 -   Conceptually intuitive, uniform data cleaning and transformation
-    capabilities (thanks to packages such as `dplyr`, `tidyr` and
-    `magrittr`), unparalleled visualization possibilities (thanks to
-    packages such `ggplot2` and (in the future) `ggvis`), and almost
-    every model function you can think of (thanks to over 6000 packages
-    on CRAN alone).
+    capabilities (thanks to the [tidyverse](http://tidyverse.org/)
+    (including packages such as `dplyr`, `tidyr`, `purrr`, `readr` and
+    `magrittr`) and its underlying philosophy as described in [this
+    paper](https://www.jstatsoft.org/article/view/v059i10) by [Hadley
+    Wickham](http://hadley.nz/)), unparalleled visualization
+    possibilities (thanks to packages such `ggplot2` and (in the future)
+    `ggvis`), and almost every model function you can think of (thanks
+    to over 6000 packages on CRAN alone as of April 2016).
 -   A vibrant and helpful community.
 
 Installation: [CRAN](https://cran.r-project.org/)  
@@ -201,8 +233,8 @@ Recommended Editor: [RStudio](https://www.rstudio.com/)
 Recommended Reading:
 
 -   Norman Matloff: *The Art of R Programming*
--   Paul Teetor: *R Cookbook*
--   Hadely Wickham: *Advanced R*
+-   Hadley Wickham: [R for Data Science](http://r4ds.had.co.nz/*)
+-   Hadely Wickham: [Advanced R](http://adv-r.had.co.nz/)
 
 ### Stata
 
@@ -236,8 +268,8 @@ objectively good and meaningful visualizations.
 
 [ggplot2](https://github.com/hadley/ggplot2) is **the**
 [R](https://www.r-project.org/) package for producing statistical and/or
-data graphics, written by Hadely Wickham, one of the most productive -
-if not the most productive - member of the
+data graphics, written by [Hadley Wickham](http://hadley.nz/), one of
+the most productive - if not the most productive - member of the
 [R](https://www.r-project.org/) family. It has become the de facto
 standard for displaying graphics made with
 [R](https://www.r-project.org/). Unlike most other graphics packages in
@@ -256,9 +288,9 @@ visualization attempt .
 Installation: `install.packages("ggplot2")` in your R console  
 Recommended Reading:
 
--   Hadley Wickham: [*ggplot2: Elegant Graphics for Data
-    Analysis*](https://github.com/hadley/ggplot2-book) (To be published
-    in July 2016)
+-   Hadley Wickham: [ggplot2: Elegant Graphics for Data
+    Analysis](http://www.springer.com/de/book/9783319242750)
+-   Hadley Wickham: [R for Data Science](http://r4ds.had.co.nz/*)
 -   Winston Chang: [*R Graphics
     Cookbook*](http://www.amazon.de/R-Graphics-Cookbook-Winston-Chang/dp/1449316956/ref=pd_bxgy_14_img_3?ie=UTF8&refRID=1X86HJ6XDM6N9HDH32ZR)
 -   [Data Visualization Cheat
@@ -266,7 +298,7 @@ Recommended Reading:
 
 ### ggvis
 
-[ggvis](http://ggvis.rstudio.com/) is a still-in-active-developement
+[ggvis](http://ggvis.rstudio.com/) is a still-in-active-development
 [R](https://www.r-project.org/) package for data visualization. Like
 [ggplot2](https://github.com/hadley/ggplot2), it centers around the
 grammar of graphics, but adds interactivity by incorporating
@@ -340,9 +372,9 @@ installation such as [MikTeX](http://miktex.org/).
 Recommended Editor:
 
 -   [TexMaker](http://www.xm1math.net/texmaker/) if you want to create
-    the presenation directly with Latex.
+    the presentation directly with Latex.
 -   [RStudio](https://www.rstudio.com/) if you want to create a beamer
-    presentation from an RMarkdown file using `beamer_presentation` in
+    presentation from an R Markdown file using `beamer_presentation` in
     you YAML header.
 
 Recommended Reading: [Beamer User
@@ -354,7 +386,7 @@ Both IoSlides and Slidy are web-based alternatives to standard pdf
 presentations. IoSlides or Slidy slides are basically html pages that
 can be run directly within the browser. This makes them highly shareable
 and portable. Slides are best from within RStudio created by knitting an
-RMarkdown file using `ioslide_presentation` or `slidy_presentation` in
+R Markdown file using `ioslide_presentation` or `slidy_presentation` in
 your YAML header.
 
 ------------------------------------------------------------------------
@@ -371,9 +403,9 @@ another including different slide show formats, HTML code and pdf (try
 it out yourself [here](http://pandoc.org/try/). Pandoc works best,
 however, if given a (R)Markdown file as input. Pandoc is not that easy
 to use (requires a command line) but as it is nicely integrate into the
-[RStudio](https://www.rstudio.com/) IDE via the RMarkdown package, there
-is usually no need to use it directly, although its good to know that it
-exists in case you need it.
+[RStudio](https://www.rstudio.com/) IDE via the R Markdown package,
+there is usually no need to use it directly, although its good to know
+that it exists in case you need it.
 
 ### Knitr
 
@@ -405,9 +437,9 @@ and sophisticated comments within one single document. Although
 [Knitr](http://yihui.name/knitr/) is an [R](https://www.r-project.org/)
 package it does not only support R but the most often used document
 formats such as LaTeX, HTML, Markdown and a broad variety of other
-programming languages such as Pyton, Julia or even (after some tweaking)
-Stata. [Knitr](http://yihui.name/knitr/) is tightly integrated into
-[RStudio](https://www.rstudio.com/) but does not depend on it.
+programming languages such as Python, Julia or even (after some
+tweaking) Stata. [Knitr](http://yihui.name/knitr/) is tightly integrated
+into [RStudio](https://www.rstudio.com/) but does not depend on it.
 
 Recommended Reading:
 
@@ -415,15 +447,15 @@ Recommended Reading:
 
 ### RMarkdown v2
 
-RMarkdown is an [R](https://www.r-project.org/) package that is usually
-refered to R Markdown v2 to distinguish it from an earlier version. It
+R Markdown is an [R](https://www.r-project.org/) package that is usually
+referred to R Markdown v2 to distinguish it from an earlier version. It
 basically brings Markdown, [Knitr](http://yihui.name/knitr/) and
 [Pandoc](http://pandoc.org/index.html) together. It enables easy
 creation of dynamic documents (via [Knitr](http://yihui.name/knitr/)) in
 different formats (via [Pandoc](http://pandoc.org/index.html)) including
 Pandoc's version of the Markdown language. Similar to
 [Knitr](http://yihui.name/knitr/), it is tightly integrated into the
-[RStudio](https://www.rstudio.com/) IDE making it extremly easy to use
+[RStudio](https://www.rstudio.com/) IDE making it extremely easy to use
 (literally one click is sometimes enough). Recommended Reading:
 
 -   [This](http://www.introductoryr.co.uk/Reproducibility/Markdown_guide.html)
@@ -447,7 +479,7 @@ early stages. This is, by the way, where the name is coming from, as
 [Jupyter](http://jupyter.org/)is an acronym for Ju(lia)Py(ton)te(R). The
 difference between [knitr](http://yihui.name/knitr/) and
 [Jupyter](http://jupyter.org/) is that the latter allows for live code
-and text evaluation. While RMarkdown files need to be compiled for
+and text evaluation. While R Markdown files need to be compiled for
 evaluation to take place, code cells in a [Jupyter](http://jupyter.org/)
 notebook are evaluated on the fly. This makes
 [Jupyter](http://jupyter.org/) highly recommendable for interactive
@@ -482,8 +514,8 @@ Miscellaneous SPT's
 
 [Virtual Box](https://www.virtualbox.org/) lets you set up a virtual
 machine on your local computer. This is especially useful if you want to
-have Linux running in paralell on a windows machine (or the other way
-around) and dont want the inconvienience of a dual boot machine. When
+have Linux running in parallel on a windows machine (or the other way
+around) and don't want the inconvenience of a dual boot machine. When
 setting up the machine the user can choose how much of the computer
 resources (such as RAM, Disk Space etc.) the virtual machine should be
 able to use.
@@ -502,7 +534,7 @@ sharing.
 
 [JabRef](http://www.jabref.org/) is a jave-based open source
 bibliography reference manager that helps you organize your books,
-papers and other documents. It is desigend to work with
+papers and other documents. It is designed to work with
 [LaTeX](https://www.latex-project.org/) as it stores its information in
 [LaTeX'](https://www.latex-project.org/) native BiTeX style. Hence, it
 is the ideal tool for storing and organizing your

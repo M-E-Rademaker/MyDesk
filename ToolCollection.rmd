@@ -21,10 +21,18 @@ three mutually dependent parts:
 + Analysis data - Visualize, model, transform
 + Communicate results - Write, present, share
 
-These SPT's are roughly grouped by their main purpose, although this is by no 
+This is nicely summarized in the following graphic that has been popularized by [Hadley Wickham][Hadley],
+the author of many useful R packages and excellent books (see below).
+
+#### The Scientific Workflow (Source: <http://r4ds.had.co.nz/introduction.html>)
+![ssdsd](http://r4ds.had.co.nz/diagrams/data-science.png)
+
+When talking about SPT's that help ease the scientific workflow I have this workflow in mind.
+
+The SPT's are roughly grouped by their main purpose, although this is by no 
 means a sharp distinction as most SPT's are useful for different tasks within 
 the circle. Help, documentation, tutorials and examples for each of the SPT's 
-mentioned below may easily be found on [google][google]. I will, however, 
+mentioned below may easily be found on [Google.com][google]. I will, however, 
 mention recommended reading if I find something particularly useful.
 
 ---
@@ -40,7 +48,8 @@ most notably
   +  state of the art style requirements
   +  convertibility between different formats (e.g. .pdf and .html)
   +  reproducibility and cross-platform independence
-  +  seamless integration with other SPT's within the scientific workflow
+  +  seamless integration with other SPT's within the scientific workflow in particular 
+     the connection between computer code/output and writing.
 
 ### LaTeX
 
@@ -53,7 +62,7 @@ production of technical and scientific writing (e.g. mathematical notation and
 detailed control of the bibliography), it excels at that and has hence become 
 the de facto standard for the communication and publication of scientific documents. 
 While learning [LaTeX][Latex] requires more effort than learning 
-[Microsoft Word][Word] (at least initally) it has many advantages that make 
+[Microsoft Word][Word] (at least initially) it has many advantages that make 
 the initial effort worthwhile, in particular for those that regularly use
 mathematical notation.
 
@@ -76,7 +85,7 @@ now supporting well known formats such as .pdf and .docx ([Microsoft Word][Word]
 most notably [StackOverflow][Stackoverflow] and [GitHub][GitHub], although 
 each of them uses a different [Markdown][Markdown] dialect (extension). 
 The number of different dialects that have evolved since the original 
-[Markdown][Markdown] language was first introduced in 2004 are a bit confusing, 
+[Markdown][Markdown] language was first introduced in 2004 may be a bit confusing to newcomers, 
 however, they are largely compatible amongst each other.  
 
 Text written in [Markdown][Markdown] is basically regular text with some 
@@ -102,7 +111,16 @@ Recommended Editor: [Atom][Atom], [RStudio][RStudio]
 
 Statistical analysis is at the heart of the answer to most scientific questions. 
 This is especially true for questions related to economics and/or businesses 
-management. A set of SPT's that help  built, explore, evaluate, and interpret 
+management. While classical statistical and econometric *theory* does not necessarily require the use of 
+computer software, actual *application* and data analysis in general is inherently computer driven.
+Furthermore modern statistics (like neural nets or Monte Carlo simulation) by and large evolved around 
+computer driven progress and may thus be seen as inherently computer-dependent.
+This is emphasized by a quote in the 2016 book [Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI/) 
+by Bradley Efron and Trevor Hastie, two of the most famous statisticians/computer scientists:
+
+> Almost all topics in twenty-first century statistics are now computer-dependent [...]
+
+Hence, a set of SPT's that help  built, explore, evaluate, and interpret 
 models of any complexity is therefore indispensable. While standard spread sheet
 programs such as [Microsoft Excel][Excel] do have its benefits, it is important 
 to realize that they are not designed for more complex statistical tasks. 
@@ -119,7 +137,7 @@ software such as [EViews][Eviews], [Stata][Stata], [SPSS][SPSS] or
 [Gretl][Gretl] it has a relatively steep learning curve - although the initial 
 hurdle has been considerably lowered over the last years, thanks to tutorials, 
 introductory videos, well written books and tons of detailed and easy-to-read 
-ocumentation. The learning curve is usually an obstacle for those new to [R][R], 
+documentation. The learning curve is usually an obstacle for those new to [R][R], 
 however, as mentioned above and as described [here][Why R 1] and 
 [here][Why R 2], there are numerous reasons why [R][R] should nevertheless be 
 your pick as statistical software, most notably:
@@ -127,12 +145,13 @@ your pick as statistical software, most notably:
 +  It is free
 +  [R][R] forces you to think about what you want to do
 +  By seamlessly integrating with other SPT's [R][R] open the door to a world 
-of other SPT'S
+of other SPT'S (and incredibly important aspect that as of March 2017 no other software is able to beat)
 +  Conceptually intuitive, uniform data cleaning and transformation capabilities 
-(thanks to packages such as `dplyr`, `tidyr` and `magrittr`), 
+(thanks to the [tidyverse][Tidyverse] (including packages such as `dplyr`, `tidyr`, `purrr`, 
+`readr` and `magrittr`) and its underlying philosophy as described in [this paper](https://www.jstatsoft.org/article/view/v059i10) by [Hadley Wickham][Hadley]), 
 unparalleled visualization possibilities (thanks to packages such `ggplot2` 
 and (in the future) `ggvis`), and almost every model function you 
-can think of (thanks to over 6000 packages on CRAN alone).
+can think of (thanks to over 6000 packages on CRAN alone as of April 2016).
 +  A vibrant and helpful community.
 
 Installation: [CRAN][cran]  
@@ -140,8 +159,8 @@ Recommended Editor: [RStudio][RStudio]
 Recommended Reading:
 
 - Norman Matloff: *The Art of R Programming*
-- Paul Teetor: *R Cookbook*
-- Hadely Wickham: *Advanced R*
+- Hadley Wickham: [R for Data Science](http://r4ds.had.co.nz/*)
+- Hadely Wickham: [Advanced R](http://adv-r.had.co.nz/)
 
 ### Stata
 
@@ -169,7 +188,7 @@ tools to be used in creating objectively good and meaningful visualizations.
 ### ggplot2
 
 [ggplot2][ggplot2-git] is **the** [R][R] package for producing statistical 
-and/or data graphics, written by Hadely Wickham, one of the most productive - 
+and/or data graphics, written by [Hadley Wickham][Hadley], one of the most productive - 
 if not the most productive - member of the [R][R] family. It has become the de 
 facto standard for displaying graphics made with [R][R]. Unlike most other 
 graphics packages in [R][R] - or any other statistical program for that matter - 
@@ -185,14 +204,14 @@ must-use for any serious visualization attempt .
 Installation: `install.packages("ggplot2")` in your R console  
 Recommended Reading:
 
-- Hadley Wickham: [*ggplot2: Elegant Graphics for Data Analysis*][ggplot2-book] 
-(To be published in July 2016)
+- Hadley Wickham: [ggplot2: Elegant Graphics for Data Analysis](http://www.springer.com/de/book/9783319242750)
+- Hadley Wickham: [R for Data Science](http://r4ds.had.co.nz/*)
 - Winston Chang: [*R Graphics Cookbook*][R-graphics]
 - [Data Visualization Cheat Sheet][ggplot2cheatsheet]
 
 ### ggvis
 
-[ggvis][ggvis] is a still-in-active-developement [R][R] package for data 
+[ggvis][ggvis] is a still-in-active-development [R][R] package for data 
 visualization. Like [ggplot2][ggplot2-git], it centers around the grammar of 
 graphics, but adds interactivity by incorporating [shiny][Shiny]'s' reactive 
 programming model. The package is still in its very early stages and is likely 
@@ -250,8 +269,8 @@ fine control over the appearance.
 Installation: A working [LaTeX][Latex] installation such as [MikTeX][Miktex].  
 Recommended Editor: 
 
-  + [TexMaker][Texmaker] if you want to create the presenation directly with Latex.
-  + [RStudio][Rstudio] if you want to create a beamer presentation from an RMarkdown
+  + [TexMaker][Texmaker] if you want to create the presentation directly with Latex.
+  + [RStudio][Rstudio] if you want to create a beamer presentation from an R Markdown
     file using `beamer_presentation` in you YAML header.
     
 Recommended Reading: [Beamer User Guide][beamerguide]
@@ -261,7 +280,7 @@ Recommended Reading: [Beamer User Guide][beamerguide]
 Both IoSlides and Slidy are web-based alternatives to standard pdf presentations.
 IoSlides or Slidy slides are basically html pages that can be run directly within
 the browser. This makes them highly shareable and portable. Slides are best 
-from within RStudio created by knitting an RMarkdown file using `ioslide_presentation`
+from within RStudio created by knitting an R Markdown file using `ioslide_presentation`
 or `slidy_presentation` in your YAML header.
 
 ---
@@ -276,7 +295,7 @@ HTML to Pandoc and convert these from one format to another including different
 slide show formats, HTML code and pdf (try it out yourself [here](http://pandoc.org/try/). 
 Pandoc works best, however, if given a (R)Markdown file as input. Pandoc is not 
 that easy to use (requires a command line) but as it is nicely integrate into the
-[RStudio][RStudio] IDE via the RMarkdown package, there is usually no need to use it directly,
+[RStudio][RStudio] IDE via the R Markdown package, there is usually no need to use it directly,
 although its good to know that it exists in case you need it.
 
 ### Knitr
@@ -303,7 +322,7 @@ has to be manually rewritten if any of the results within the chain are changed.
 [Knitr][Knitr] enables the use of both program code and sophisticated comments 
 within one single document. Although [Knitr][Knitr] is an [R][R] package it 
 does not only support R but the most often used document formats such as LaTeX, 
-HTML, Markdown and a broad variety of other programming languages such as Pyton, 
+HTML, Markdown and a broad variety of other programming languages such as Python, 
 Julia or even (after some tweaking) Stata. [Knitr][Knitr] is tightly 
 integrated into [RStudio][RStudio] but does not depend on it.
 
@@ -313,9 +332,9 @@ Recommended Reading:
 
 ### RMarkdown v2
 
-RMarkdown is an [R][R] package that is usually refered to R Markdown v2 to 
+R Markdown is an [R][R] package that is usually referred to R Markdown v2 to 
 distinguish it from an earlier version. It basically brings Markdown, [Knitr][Knitr]
-and [Pandoc][Pandoc] together. It enables easy creation of dynamic documents (via [Knitr][Knitr]) in different formats (via [Pandoc][Pandoc]) including Pandoc's version of the Markdown language. Similar to [Knitr][Knitr], it is tightly integrated into the [RStudio][RStudio] IDE making it extremly easy to use (literally one click is sometimes enough). 
+and [Pandoc][Pandoc] together. It enables easy creation of dynamic documents (via [Knitr][Knitr]) in different formats (via [Pandoc][Pandoc]) including Pandoc's version of the Markdown language. Similar to [Knitr][Knitr], it is tightly integrated into the [RStudio][RStudio] IDE making it extremely easy to use (literally one click is sometimes enough). 
 Recommended Reading:
 
  + [This][RMardown-Reading] is a very good, detailed but also long intro to [RMarkdown][RMarkdown] and reproducible research in general.
@@ -324,7 +343,7 @@ Recommended Reading:
 
 ### Jupyter
 
-As explained [on its homepage][Jupyter] [Jupyter][Jupyter] is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, and much more. While its predecessor, IPython notebook, was only built to work with Python, [Jupyter][Jupyter] supports many other languages such as Julia and R, although both Kernels are still in its early stages. This is, by the way, where the name is coming from, as [Jupyter][Jupyter]is an acronym for Ju(lia)Py(ton)te(R). The difference between [knitr][knitr] and [Jupyter][Jupyter] is that the latter allows for live code and text evaluation. While RMarkdown files need to be compiled for evaluation to take place, code cells in a [Jupyter][Jupyter] notebook are evaluated on the fly. This makes [Jupyter][Jupyter] highly recommendable for interactive teaching of programming since students can follow live and take notes while the instructor dynamically changes the code in response to questions and suggestions.
+As explained [on its homepage][Jupyter] [Jupyter][Jupyter] is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, and much more. While its predecessor, IPython notebook, was only built to work with Python, [Jupyter][Jupyter] supports many other languages such as Julia and R, although both Kernels are still in its early stages. This is, by the way, where the name is coming from, as [Jupyter][Jupyter]is an acronym for Ju(lia)Py(ton)te(R). The difference between [knitr][knitr] and [Jupyter][Jupyter] is that the latter allows for live code and text evaluation. While R Markdown files need to be compiled for evaluation to take place, code cells in a [Jupyter][Jupyter] notebook are evaluated on the fly. This makes [Jupyter][Jupyter] highly recommendable for interactive teaching of programming since students can follow live and take notes while the instructor dynamically changes the code in response to questions and suggestions.
 
 Installation:
 
@@ -349,8 +368,8 @@ Installation: Start [here](https://help.github.com/articles/set-up-git/)
 ### Virtual Box
 
 [Virtual Box][VirtualBox] lets you set up a virtual machine on your local computer. This is
-especially useful if you want to have Linux running in paralell on a windows 
-machine (or the other way around) and dont want the inconvienience of a dual boot machine.
+especially useful if you want to have Linux running in parallel on a windows 
+machine (or the other way around) and don't want the inconvenience of a dual boot machine.
 When setting up the machine the user can choose how much of the 
 computer resources (such as RAM, Disk Space etc.) the virtual machine should be 
 able to use.
@@ -366,7 +385,7 @@ saves screenshots as a regular .png or as url for immediate sharing.
 ### JabRef
 
 [JabRef][JabRef] is a jave-based open source bibliography reference manager that 
-helps you organize your books, papers and other documents. It is desigend to work 
+helps you organize your books, papers and other documents. It is designed to work 
 with [LaTeX][Latex] as it stores its information in [LaTeX'][Latex] native 
 BiTeX style. Hence, it is the ideal tool for storing and organizing your 
 [LaTeX][Latex] bibliography.
@@ -414,6 +433,7 @@ There are many similar programs that might be equally good.
 [Why R 1]: https://thetarzan.wordpress.com/2011/07/15/why-use-r-a-grad-students-2-cents/
 [Why R 2]: http://www.inside-r.org/why-use-r
 [cran]: https://cran.r-project.org/
+[Tidyverse]: http://tidyverse.org/
 [RStudio]: https://www.rstudio.com/
 [Gretl]: http://gretl.sourceforge.net/
 [Stata]: http://stackoverflow.com/
@@ -443,3 +463,4 @@ There are many similar programs that might be equally good.
 [Git]: https://git-scm.com/
 [Sharex]: https://getsharex.com/]
 [VirtualBox]: https://www.virtualbox.org/
+[Hadley]: http://hadley.nz/
