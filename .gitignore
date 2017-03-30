@@ -3,4 +3,4 @@
 .RData
 .Ruserdata
 MyDesk.Rproj
-.rmd
+*.rmd
