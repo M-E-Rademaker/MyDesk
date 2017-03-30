@@ -390,16 +390,16 @@ with [LaTeX][Latex] as it stores its information in [LaTeX'][Latex] native
 BiTeX style. Hence, it is the ideal tool for storing and organizing your 
 [LaTeX][Latex] bibliography.
 
-### BibSonomy:scraping
+<!-- ### BibSonomy:scraping -->
 
-The [bibsonomy::scraping service](http://scraper.bibsonomy.org/) can be given 
-any url that contains bibliography information in its HTML code. Once given an url, 
-the web scraper search the HTML code for bibliography information and returns it 
-as BibTeX code which can immediately be used in [LaTeX][Latex] bibliography 
-file (.bib)  or more conveniently in JabRef. In my experience the pipeline 
-Scraping -> JabRef -> LaTeX is the quickest and cleanest way to get your 
-bibliography information into LaTeX. A list of supported web pages that 
-allow scraping may be found [here](http://www.bibsonomy.org/scraperinfo).
+<!-- The [bibsonomy::scraping service](http://scraper.bibsonomy.org/) can be given  -->
+<!-- any url that contains bibliography information in its HTML code. Once given an url,  -->
+<!-- the web scraper search the HTML code for bibliography information and returns it  -->
+<!-- as BibTeX code which can immediately be used in [LaTeX][Latex] bibliography  -->
+<!-- file (.bib)  or more conveniently in JabRef. In my experience the pipeline  -->
+<!-- Scraping -> JabRef -> LaTeX is the quickest and cleanest way to get your  -->
+<!-- bibliography information into LaTeX. A list of supported web pages that  -->
+<!-- allow scraping may be found [here](http://www.bibsonomy.org/scraperinfo). -->
 
 ### PureSync
 
