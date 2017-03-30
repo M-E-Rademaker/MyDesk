@@ -1,6 +1,6 @@
 Books
 ================
-14 Mai, 2016
+30 März, 2017
 
 -   [Books related to visualization](#books-related-to-visualization)
 -   [Books related to R](#books-related-to-r)
@@ -64,10 +64,9 @@ one level by getting systematic advice on how to do things in R.
     Edition: 1  
     On the web: <http://r4ds.had.co.nz/>
 
-Description: Although the book is still work in progress it looks
-extremly promising. The book covers all necessary steps involved in
-practical data analysis: getting your data into R, tidy, transform,
-model and visualize it.
+Description: The book covers all necessary steps involved in practical
+data analysis: getting your data into R, tidy, transform, model and
+visualize it.
 
 1.  Title: **Advanced R**  
     Author: Hadley Wickham  
