@@ -30,7 +30,6 @@ Software, Programs and Tools for the Scientific Workflow
     -   [Virtual Box](#virtual-box)
     -   [ShareX](#sharex)
     -   [JabRef](#jabref)
-    -   [BibSonomy:scraping](#bibsonomyscraping)
     -   [PureSync](#puresync)
 
 This is a collection of useful software, programs and tools (SPT's) that
@@ -540,19 +539,15 @@ papers and other documents. It is designed to work with
 is the ideal tool for storing and organizing your
 [LaTeX](https://www.latex-project.org/) bibliography.
 
-### BibSonomy:scraping
-
-The [bibsonomy::scraping service](http://scraper.bibsonomy.org/) can be
-given any url that contains bibliography information in its HTML code.
-Once given an url, the web scraper search the HTML code for bibliography
-information and returns it as BibTeX code which can immediately be used
-in [LaTeX](https://www.latex-project.org/) bibliography file (.bib) or
-more conveniently in JabRef. In my experience the pipeline Scraping
--&gt; JabRef -&gt; LaTeX is the quickest and cleanest way to get your
-bibliography information into LaTeX. A list of supported web pages that
-allow scraping may be found
-[here](http://www.bibsonomy.org/scraperinfo).
-
+<!-- ### BibSonomy:scraping -->
+<!-- The [bibsonomy::scraping service](http://scraper.bibsonomy.org/) can be given  -->
+<!-- any url that contains bibliography information in its HTML code. Once given an url,  -->
+<!-- the web scraper search the HTML code for bibliography information and returns it  -->
+<!-- as BibTeX code which can immediately be used in [LaTeX][Latex] bibliography  -->
+<!-- file (.bib)  or more conveniently in JabRef. In my experience the pipeline  -->
+<!-- Scraping -> JabRef -> LaTeX is the quickest and cleanest way to get your  -->
+<!-- bibliography information into LaTeX. A list of supported web pages that  -->
+<!-- allow scraping may be found [here](http://www.bibsonomy.org/scraperinfo). -->
 ### PureSync
 
 [PureSync](https://www.jumpingbytes.com/puresync.html) is a free
