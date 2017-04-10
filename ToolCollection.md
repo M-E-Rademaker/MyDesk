@@ -1,6 +1,6 @@
 Software, Programs and Tools for the Scientific Workflow
 ================
-30 März, 2017
+10 April, 2017
 
 -   [The Scientific Workflow (Source:
     <http://r4ds.had.co.nz/introduction.html>)](#the-scientific-workflow-source-httpr4ds.had.co.nzintroduction.html)
@@ -352,6 +352,8 @@ Recommended Tutorial: The best way to learn Shiny is to use the
 [tutorial on the Shiny webpage](http://shiny.rstudio.com/tutorial/).  
 Recommended Reading: [Interactive web apps cheat
 sheet](http://www.rstudio.com/wp-content/uploads/2016/01/shiny-cheatsheet.pdf)
+and literally anything that [Dean Attali](http://deanattali.com/)
+writes.
 
 ------------------------------------------------------------------------
 
