@@ -1,6 +1,6 @@
 Software, Programs and Tools for the Scientific Workflow
 ================
-10 April, 2017
+24 Juni, 2018
 
 -   [The Scientific Workflow (Source:
     <http://r4ds.had.co.nz/introduction.html>)](#the-scientific-workflow-source-httpr4ds.had.co.nzintroduction.html)
@@ -13,7 +13,6 @@ Software, Programs and Tools for the Scientific Workflow
     -   [Stata](#stata)
 -   [SPT's for visualization](#spts-for-visualization)
     -   [ggplot2](#ggplot2)
-    -   [ggvis](#ggvis)
     -   [TikZ](#tikz)
     -   [Shiny](#shiny)
 -   [SPT's for presentations](#spts-for-presentations)
@@ -80,8 +79,8 @@ notably
 -   convertibility between different formats (e.g. .pdf and .html)
 -   reproducibility and cross-platform independence
 -   seamless integration with other SPT's within the scientific workflow
-    in particular the connection between computer code/output
-    and writing.
+    in particular the connection between computer code/output and
+    writing.
 
 ### LaTeX
 
@@ -294,20 +293,6 @@ Recommended Reading:
     Cookbook*](http://www.amazon.de/R-Graphics-Cookbook-Winston-Chang/dp/1449316956/ref=pd_bxgy_14_img_3?ie=UTF8&refRID=1X86HJ6XDM6N9HDH32ZR)
 -   [Data Visualization Cheat
     Sheet](https://www.rstudio.com/resources/cheatsheets/)
-
-### ggvis
-
-[ggvis](http://ggvis.rstudio.com/) is a still-in-active-development
-[R](https://www.r-project.org/) package for data visualization. Like
-[ggplot2](https://github.com/hadley/ggplot2), it centers around the
-grammar of graphics, but adds interactivity by incorporating
-[shiny](http://shiny.rstudio.com/)'s' reactive programming model. The
-package is still in its very early stages and is likely to undergo
-significant changes in the future, however, it is definitely worth
-keeping an eye on it's development as it is probably going to set the
-standard of interactive visualization in a couple of years.
-
-Installation: `install.packages("ggvis")` in your R console
 
 ### TikZ
 
